@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Landing Page - Serviços de Programação</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
     <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #333;
+            --light-bg: #f8fafc;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -14,12 +20,13 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
         }
 
         .parallax-header {
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://source.unsplash.com/random/1920x1080?technology');
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/random/1920x1080?coding');
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -28,55 +35,76 @@
             color: white;
         }
 
-        nav {
-            padding: 1rem;
-            background: rgba(0,0,0,0.8);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            margin: 0 0.5rem;
-        }
-
         .hero {
+            height: calc(100vh - 60px);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: calc(100vh - 60px);
             text-align: center;
+            padding: 0 20px;
         }
 
         .hero h1 {
-            font-size: 3rem;
+            font-size: 4rem;
+            font-weight: 700;
             margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeIn 1s ease-in;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
 
         section {
-            padding: 4rem 2rem;
-            text-align: center;
+            padding: 6rem 2rem;
+            background: var(--light-bg);
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--primary-color);
         }
 
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             padding: 2rem;
         }
 
         .service-card {
-            padding: 2rem;
-            background: #f4f4f4;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        .service-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
         }
 
         #contact-form {
@@ -84,33 +112,63 @@
             margin: 0 auto;
             display: flex;
             flex-direction: column;
-            gap: 1rem;
+            gap: 1.5rem;
         }
 
         #contact-form input,
         #contact-form textarea {
-            padding: 0.8rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            padding: 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            transition: border-color 0.3s ease;
+        }
+
+        #contact-form input:focus,
+        #contact-form textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
         }
 
         button {
             padding: 1rem 2rem;
-            background: #007bff;
+            background: var(--primary-color);
             color: white;
             border: none;
-            border-radius: 4px;
-            cursor: pointer;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background: var(--secondary-color);
         }
 
         footer {
-            background: #333;
+            background: #1f2937;
             color: white;
             text-align: center;
-            padding: 1rem;
+            padding: 2rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Adicionando animações de entrada */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
     </style>
 </head>
+
 <body>
     
     <header class="parallax-header">
@@ -134,7 +192,7 @@
                             <a class="nav-link" href="#contact">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://blog.lipsaraiva.com.br">Artigos</a>
+                            <a class="nav-link" href="/blog">Artigos</a>
                         </li>
                     </ul>
                 </div>
