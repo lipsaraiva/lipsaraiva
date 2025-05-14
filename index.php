@@ -1,206 +1,273 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="pt-BR" class="theme light classic">
-
+<html lang="pt-BR">
 <head>
-    <base href="/cria-o-de-landing-page-responsiva-com-html5-css3-e-javascript/">
     <meta charset="utf-8">
-    <title>Criação de Landing Page Responsiva com HTML5, CSS3 e JavaScript</title>
-    <meta name="app-name" content="export_website" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="_assets/a0684b0780c739e9.vendor.ltr.css" rel="stylesheet" integrity="sha512-JwMCpiHdk95MoUTatfaZJwstzeDnWfvWMJiwnSxZfPmgeCe4yvQDQ+ONMQjIy/Ht72r0TmlE+gvZnYRnpdLdVg==" crossorigin="anonymous">
-    <link href="_assets/54f46b5be188e9ef.ltr.css" rel="stylesheet" integrity="sha512-b+CxetRzUDMOXdEWrG0OABifGq+2ywGE6eDXhWzJN9bL6FSYnMmyOrr3U2YGR6hkEKqshSKZVcsNrCVivXrzQw==" crossorigin="anonymous">
-    <link href="_assets/static_font_4.ltr.css" rel="stylesheet">
-    <link href="_assets/acc962d18ad720c2.runtime.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-mSIaZYFjoiKs9BQdPBwvjt0gngzh/u9a+EOxQnQ7av7X2tm597zRl5LIJtkdZ3ZMfQidiKZgjUnFdtSV+LQBxw==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-    <link href="_assets/aaa08f5161a956c7.i3d79q.vendor.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-2uvObKRh56EnLmVUHGrNNaY2BdIjjB82PSV90VwXpnQ/nvwps09y+cIqwGPg7SfSfO8Q3kbd2HAuIPJCvfjlxw==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-    <link href="_assets/ebccce581bffd176.vendor.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-eyEUEEnYEs/0KRKpSAq9YDrODPIRPbf7i7IYOr0wkqTmUjGnK0i1mgFdFo0j8xC6aSIlFxPmwltwg5uymzP5Cw==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-    <link href="_assets/408f7223adb53bc9.strings.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-W07Bb33N5FC0Iot3mdMy4W9Mm1tGpNzAIxRHGL9nTS9bltACLj19V8niO8IdpJI2p8DwKGjFMLc2lUTr+jfZTA==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-    <link href="_assets/1f4bb2f2e026dda5.pt-BR.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-VIeHpst2xu51eJl5dPN3yYLBgB7gYTw5GH7Hg3AAgNd6JBatxrZkftn48ksHKIZO8Gn2cmi58iC8iBP1PpRBGA==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-    <link href="_assets/bde945afc849a5f9.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-bWqpwq+Yq/iw7cTi8AEDL86HyfSqLsY95gamdWIOZyIobxhwOwNppowZkKV+yEMoiNsUeNEgLHUFe189Wx7rqg==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta property="og:title" content="Criação de Landing Page Responsiva com HTML5, CSS3 e JavaScript">
-    <meta property="og:type" content="website">
-    <link rel="shortcut icon" href="_assets/images/2d0b56e7e51cf11036ad8734bdb67e2d.png">
-    <link rel="icon" href="_assets/images/e53c4bd8da5e491d9ab09e7cf0daf874.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="_assets/images/725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
-    <script nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-        document.addEventListener('contextmenu', (e) => {
-            const isMedia = ['img', 'image', 'video', 'svg', 'picture'].some(
-                tagName => tagName.localeCompare(e.target.tagName, undefined, {
-                    sensitivity: 'base'
-                }) === 0,
-            );
-            isMedia && e.preventDefault();
-        });
-    </script>
-    <script nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-        const lang = navigator.language ? navigator.language : 'en';
-        window.canva_installFooter = (container) => {
-            if (!(container instanceof HTMLDivElement)) {
-                return;
-            }
-            fetch('_footer?lang=' + encodeURIComponent(lang)).then(response => {
-                if (response.status !== 200) {
-                    return;
-                }
-                response.text().then(footerStr => {
-                    const div = document.createElement('div');
-                    div.innerHTML = footerStr;
-                    for (const child of [...div.children]) {
-                        if (child.tagName.toLowerCase() !== 'script') {
-                            container.append(child);
-                        }
-                    }
-
-                    (() => {
-                        ! function(e) {
-                            "use strict";
-                            const t = document.getElementById("modal_backdrop"),
-                                n = document.getElementById("modal"),
-                                o = document.getElementById("captcha-form"),
-                                c = document.getElementById("report_button"),
-                                d = document.getElementById("form_report"),
-                                s = document.getElementById("form_cancel"),
-                                l = document.getElementById("form_submit_reason"),
-                                a = document.getElementById("form_go_back"),
-                                r = document.getElementById("form_submit_captcha"),
-                                m = document.getElementById("form_close"),
-                                i = document.getElementById("form_close_initial"),
-                                u = document.getElementById("report_reason_0"),
-                                p = document.getElementById("error_message"),
-                                _ = document.getElementById("error_message_captcha"),
-                                y = new Map;
-                            y.set(0, document.getElementById("form_step_terms")), y.set(1, document.getElementById("form_step_report_reason")), y.set(4, document.getElementById("form_step_report_other"));
-                            const E = document.getElementById("form_step_report_ip");
-                            E && y.set(5, E), y.set(2, document.getElementById("form_step_captcha")), y.set(3, document.getElementById("form_step_success"));
-                            const f = document.getElementById("report_reason_4"),
-                                g = document.getElementById("form_close_ip"),
-                                h = document.getElementById("form_go_back_ip"),
-                                I = document.getElementById("report_reason_other"),
-                                k = document.getElementById("form_close_other"),
-                                w = document.getElementById("form_go_back_other");
-
-                            function v() {
-                                t.classList.remove("active"), n.classList.remove("active"), c.classList.remove("active"), c.focus()
-                            }
-
-                            function B(e) {
-                                y.forEach(((t, n) => {
-                                    n === e ? (t.style.display = "block", L(t)) : t.style.display = "none"
-                                }))
-                            }
-                            let b, C = !1;
-                            const T = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => b : () => {
-                                const e = o.elements.namedItem("g-recaptcha-response");
-                                return null == e ? void 0 : e.value
-                            };
-                            t.onclick = v, s.onclick = v, m.onclick = v, i.onclick = v, g && (g.onclick = v), k.onclick = v, c.onclick = function() {
-                                y.forEach(((e, t) => {
-                                    e.style.display = 0 === t ? "block" : "none"
-                                })), t.classList.add("active"), n.classList.add("active"), c.classList.add("active"), u.checked = !0, setTimeout((() => {
-                                    L(y.get(0))
-                                }), 350)
-                            }, d.onclick = d.dataset.reportUrl ? function() {
-                                const {
-                                    origin: e,
-                                    pathname: t
-                                } = window.location, n = e + t, o = d.dataset.reportUrl + encodeURIComponent(n);
-                                window.open(o)
-                            } : () => B(1), l.onclick = () => {
-                                null != E && f.checked ? B(5) : I.checked ? B(4) : (B(2), function() {
-                                    if (C) return;
-                                    const e = document.createElement("script");
-                                    e.src = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? "https://cstaticdun.126.net/load.min.js" : "https://www.google.com/recaptcha/api.js", e.async = !0, e.defer = !0, document.head.appendChild(e), C = !0, e.onload = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => {
-                                        var e;
-                                        null === (e = window.initNECaptcha) || void 0 === e || e.call(window, {
-                                            captchaId: window.C_CAPTCHA_KEY,
-                                            element: "#netease-captcha",
-                                            protocol: "https",
-                                            width: "auto",
-                                            onVerify: (e, t) => {
-                                                b = t.validate
-                                            }
-                                        })
-                                    } : () => {}
-                                }())
-                            }, a.onclick = () => B(1), h && (h.onclick = () => B(1)), w.onclick = () => B(1), o.addEventListener("submit", (function(e) {
-                                e.preventDefault(), p.style.display = "none", _.style.display = "none";
-                                const t = function() {
-                                        let e = "";
-                                        const t = document.getElementsByName("report_reason");
-                                        for (let n = 0; n < t.length; n++) {
-                                            const o = t[n];
-                                            o.checked && (e = o.value)
-                                        }
-                                        return e
-                                    }(),
-                                    n = T();
-                                if (!n) return void(_.style.display = "block");
-                                const o = {
-                                        reason: t,
-                                        challenge: n
-                                    },
-                                    c = window.location.origin + window.location.pathname + "/_api/report";
-                                r.classList.add("loading"), fetch(c, {
-                                    method: "POST",
-                                    body: JSON.stringify(o),
-                                    headers: {
-                                        "Content-Type": "application/json; charset=utf-8"
-                                    }
-                                }).then((e => {
-                                    r.classList.remove("loading"), e.ok ? B(3) : p.style.display = "block"
-                                }))
-                            }));
-                            const A = new Map,
-                                L = e => {
-                                    const t = A.get(e);
-                                    null != t && document.removeEventListener("keydown", t);
-                                    const n = e.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'),
-                                        o = e,
-                                        c = n[n.length - 1],
-                                        d = function(e) {
-                                            ("Tab" === e.key || 9 === e.keyCode) && (e.shiftKey ? document.activeElement === o && (c.focus(), e.preventDefault()) : document.activeElement === c && (o.focus(), e.preventDefault()))
-                                        };
-                                    A.set(e, d), document.addEventListener("keydown", d), o.focus()
-                                };
-                            e.keepFocus = L, Object.defineProperty(e, "__esModule", {
-                                value: !0
-                            })
-                        }({});
-                    })();
-                });
-            });
+    <title>Landing Page - Serviços de Programação</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #333;
+            --light-bg: #f8fafc;
         }
-    </script>
-    <script nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-        window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
-    </script>
-    <script nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-        window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
-    </script>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+        }
+
+        .parallax-header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/random/1920x1080?coding');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            color: white;
+        }
+
+        .hero {
+            height: calc(100vh - 60px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeIn 1s ease-in;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        section {
+            padding: 6rem 2rem;
+            background: var(--light-bg);
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--primary-color);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .service-card {
+            padding: 2.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        .service-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        #contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        #contact-form input,
+        #contact-form textarea {
+            padding: 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            transition: border-color 0.3s ease;
+        }
+
+        #contact-form input:focus,
+        #contact-form textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        button {
+            padding: 1rem 2rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background: var(--secondary-color);
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Adicionando animações de entrada */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 </head>
 
 <body>
-    <script nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-        document.documentElement.classList.replace('adaptive', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    </script>
-    <div id="root"></div>
-    <script nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8">
-        (function() {
-            window['__canva_public_path__'] = '_assets\/';
-            window['bootstrap'] = JSON.parse('{"base":{"A?":"B","L":false,"N":false,"E":"097f3fa9cc220662db67fc7b55b563c976687122","K":1747225259,"F":{"A?":"B"},"G":"CLIENT_FULL","I":"A","O":{"A?":"B"},"M":"/_online","U":[],"V":[],"a":{"K":"export_website","H":{}},"d":{"A":"wss://www.canva.com/_stream","B":{"F":"export_website"}},"b":{"A?":"H","C":{"a":"ANDROID"},"D":{"a":"ANDROID","c":"pt-BR"},"E":{},"P":[],"Q":[],"R":false,"S":false}},"page":{"A":{"B":{"A?":"A","A":"TAGgL_VvTyc","B":1},"C":{"A":1366.0,"B":768.0,"C":"D"},"Q":[],"R":[],"P":"pt-BR","D":"Criação de Landing Page Responsiva com HTML5, CSS3 e JavaScript","E":"","F":[],"G":{},"Y":{},"V":[],"W":[],"A":[{"A?":"i","a":"PB2l2QBSTSLSlMM8","R":false,"S":false,"U":false,"Q":{},"W":[],"X":[],"H":[],"L":{},"D":{"C":"#ffffff","D":0.0,"F":false,"J":false,"G":false,"H":false},"r":[],"E":[{"A?":"O","A":0.0,"B":0.0,"D":1366.0,"C":768.0,"E":0.0,"F":0.0,"BA":[],"BB":[],"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":"_website-element-widget?pageIndex=0&elementIndex=0&elementType=C&locale=pt-BR","b":1366.0,"c":768.0}],"I":[]}],"I":[]},"Z":{"A?":"E","M":"pt-BR","e":true,"f":{"B":"#ffffff","C":"#304254"},"g":[{"A?":"A","K":"PB2l2QBSTSLSlMM8","e":{"A":true}}]},"B":[{"A":"YACgEZ1cb1Q","B":0,"C":"Arimo","D":[{"style":"BOLD_ITALICS","files":[{"url":"_assets/fonts/4de29305db46625343735e840e3d27aa.otf","format":"OTF","unicodeRanges":[],"sizeBytes":435028},{"url":"_assets/fonts/7fc2786f9023d4d812357cb787e9ad4b.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":237660},{"url":"_assets/fonts/1060345c54d396e76d73f1da7ee200bd.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":203232}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2109},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":33}}},{"style":"ITALICS","files":[{"url":"_assets/fonts/79d14bb61301a10c73c6cb293c29b309.otf","format":"OTF","unicodeRanges":[],"sizeBytes":440740},{"url":"_assets/fonts/d257a7100844bc3f98c9021168b6249e.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":201132},{"url":"_assets/fonts/ac9b8a560f98d1757a4565a2419d33c3.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":240632}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2077},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-425,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":1}}},{"style":"REGULAR","files":[{"url":"_assets/fonts/f8f199f09526f79e87644ed227e0f651.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194188},{"url":"_assets/fonts/4ff8a742aa834e35f10ead140b735c45.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234380},{"url":"_assets/fonts/daee28464eba92254cb149feea6599e3.otf","format":"OTF","unicodeRanges":[],"sizeBytes":436180}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2007},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":64}}},{"style":"BOLD","files":[{"url":"_assets/fonts/9fd726aeae98b22824f0dc8947036e77.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234696},{"url":"_assets/fonts/0bb563f2f60ffd4e62b64cb021c33776.otf","format":"OTF","unicodeRanges":[],"sizeBytes":438516},{"url":"_assets/fonts/98c4d2c0223fc8474641c77f923528e9.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194064}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2116},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":32}}}],"E":false}],"E":[],"F":[],"G":[],"H":[{"A":"https://www.canva-hosted-embed.com/codelet/bbdn7k3j5zsap18z","Q":false,"B":"Canva","D":1747225259867,"E":"\x3ciframe src=\\"https://bbdn7k3j5zsap18z.canva-hosted-embed.com/codelet/AAEAEGJiZG43azNqNXpzYXAxOHoAAAAAAZbT5Atb_7zsCFHV407Kv9bCqhHKvrah2KLwh8cU06c-TiB5hHs/\\" sandbox=\\"allow-same-origin allow-scripts allow-popups allow-forms\\" allowfullscreen=\\"true\\" width=\\"800\\" height=\\"450\\" style=\\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;\\" allow=\\"fullscreen\\">\x3c/iframe>","F":1366,"G":768},{"A":"_website-element-widget?pageIndex=0&elementIndex=0&elementType=C&locale=pt-BR","Q":false,"B":"Canva","D":1747225259930,"E":"\x3ciframe src=\\"_website-element-widget?pageIndex=0&elementIndex=0&elementType=C&locale=pt-BR\\" width=\\"1366\\" height=\\"768\\" frameborder=\\"0\\" sandbox=\\"allow-same-origin allow-scripts allow-popups allow-forms allow-popups-to-escape-sandbox\\" referrerpolicy=\\"strict-origin-when-cross-origin\\">\x3c/iframe>","F":1366,"G":768}],"S":[],"K":{"B":"#ffffff","C":"#304254"},"Q":{"A":false,"B":true,"M":true},"R":false,"T":true,"U":false},"ui":{"N":false,"A":true,"B":"A","C":false,"D":false,"K":"A","I":false,"J":false}}');
-            window['flags'] = JSON.parse('{"e14fc013":true,"ba364974":true,"978ce15d":150000.0,"fb00120d":true}');
-            window['cmsg'] = window['cmsg'] || {
-                locale: "pt-BR",
-                strings: {}
-            };
-        })();
-    </script>
-    <script crossorigin="anonymous" src="_assets/acc962d18ad720c2.runtime.js" defer integrity="sha512-mSIaZYFjoiKs9BQdPBwvjt0gngzh/u9a+EOxQnQ7av7X2tm597zRl5LIJtkdZ3ZMfQidiKZgjUnFdtSV+LQBxw==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8"></script>
-    <script crossorigin="anonymous" src="_assets/aaa08f5161a956c7.i3d79q.vendor.js" defer integrity="sha512-2uvObKRh56EnLmVUHGrNNaY2BdIjjB82PSV90VwXpnQ/nvwps09y+cIqwGPg7SfSfO8Q3kbd2HAuIPJCvfjlxw==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8"></script>
-    <script crossorigin="anonymous" src="_assets/ebccce581bffd176.vendor.js" defer integrity="sha512-eyEUEEnYEs/0KRKpSAq9YDrODPIRPbf7i7IYOr0wkqTmUjGnK0i1mgFdFo0j8xC6aSIlFxPmwltwg5uymzP5Cw==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8"></script>
-    <script crossorigin="anonymous" src="_assets/408f7223adb53bc9.strings.js" integrity="sha512-W07Bb33N5FC0Iot3mdMy4W9Mm1tGpNzAIxRHGL9nTS9bltACLj19V8niO8IdpJI2p8DwKGjFMLc2lUTr+jfZTA==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8"></script>
-    <script crossorigin="anonymous" src="_assets/1f4bb2f2e026dda5.pt-BR.js" integrity="sha512-VIeHpst2xu51eJl5dPN3yYLBgB7gYTw5GH7Hg3AAgNd6JBatxrZkftn48ksHKIZO8Gn2cmi58iC8iBP1PpRBGA==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8"></script>
-    <script crossorigin="anonymous" src="_assets/bde945afc849a5f9.js" defer integrity="sha512-bWqpwq+Yq/iw7cTi8AEDL86HyfSqLsY95gamdWIOZyIobxhwOwNppowZkKV+yEMoiNsUeNEgLHUFe189Wx7rqg==" nonce="f61c9164-847e-4753-8fd5-f97a1a9d06b8"></script>
-</body>
+    
+    <header class="parallax-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog">Artigos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Serviços de Programação</h1>
+            <p>Soluções tecnológicas para seu negócio</p>
+        </div>
+    </header>
 
+    <main>
+        <section id="services" class="parallax-section">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites e aplicações web modernas</p>
+                </div>
+                <!-- Add more service cards -->
+            </div>
+        </section>
+
+        <section id="about" class="parallax-section">
+            <h2>Sobre Nós</h2>
+            <div class="about-content">
+                <p>Sua descrição aqui...</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Seus Direitos Reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple parallax effect
+        window.addEventListener('scroll', function() {
+            const parallaxSections = document.querySelectorAll('.parallax-section');
+            parallaxSections.forEach(section => {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * 0.5;
+                section.style.backgroundPosition = `center ${rate}px`;
+            });
+        });
+
+        // Form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Formulário enviado! (Esta é apenas uma demonstração)');
+        });
+    </script>
+</body>
 </html>
+
+
+
