@@ -203,7 +203,7 @@
             <!-- Content overlay -->
             <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; padding: 0 20px;">
                 <div class="text-center">
-                    <p style="font-family: 'Jockey One', sans-serif; font-size: 5rem; color: transparent; -webkit-text-stroke: 2px white;">SARAIVA</p>
+                    <p style="font-family: 'Jockey One', sans-serif; font-size: 7rem; color: transparent; -webkit-text-stroke: 1px white;">SARAIVA</p>
                 </div>
                 <p class="text-center text-white" data-aos="fade-up" 
                 style="font-family: 'Saira Condensed', sans-serif; max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
