@@ -190,24 +190,13 @@
 
 <body>
     <!-- <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="width: 100%; z-index: 1000;"> 
-        <!-- Caso precise de logotipo --> 
-        <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> 
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> 
-            <i class="fa fa-bars" style="color: #ffffff;"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ml-auto">
-                <div class="nav-item nav-link">
-                    <p class="my-4">
-                        <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEBSITES</a><br>
-                        <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">SISTEMAS</a><br>
-                        <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN</a><br>
-                        <a href="#sobre" class="drop-link" style="color: #aba8ad;">SOBRE</a><br>
-                        <a href="#contato" class="drop-link" style="color: #aba8ad;">CONTATO</a><br>
-                        <a href="https://lipsaraiva.com.br/blog" target="_blank" class="drop-link" style="color:rgb(96, 0, 160);">ARTIGOS</a>
-                    </p>
-                </div>
+    <nav class="navbar navbar-expand navbar-light fixed-top" style="width: 100%; z-index: 1000; background-color: rgba(255,255,255,0.9);">
+        <div class="container">
+            <div class="navbar-nav mx-auto">
+                <a href="#webdesign" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">WORKS</a>
+                <a href="#sobre" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">SOBRE</a>
+                <a href="#contato" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">CONTATO</a>
+                <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">ARTIGOS</a>
             </div>
         </div>
     </nav>
