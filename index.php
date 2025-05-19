@@ -5,7 +5,7 @@
     <title>Saraiva - Soluções para Web</title> <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/aos.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" /> <!-- Fontes Google -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
