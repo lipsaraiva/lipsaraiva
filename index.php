@@ -24,7 +24,6 @@
             min-height: 100% !important;
             padding: 0px;
             margin: 0px;
-            scroll-padding-top: 60px;
         }
 
         body {
@@ -33,7 +32,6 @@
             font-style: normal;
             color: #ffffff;
             line-height: normal;
-            padding-top: 60px;
         }
 
         a:link {
@@ -182,8 +180,8 @@
 
 <body>
     <!-- <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
-    <nav class="navbar navbar-expand navbar-light fixed-top" 
-    style="width: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.9);">
+    <nav class="navbar navbar-expand navbar-light" 
+    style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.9);">
         <div class="container">
             <div class="navbar-nav mx-auto">
                 <a href="#inicio" class="nav-item nav-link" style="color: #ffffff;"><i class="fa fa-home"></i></a>
@@ -207,7 +205,8 @@
                 <div class="text-center">
                     <p style="font-family: 'Jockey One', sans-serif; font-size: 5rem;">SARAIVA</p>
                 </div>
-                <p class="text-center text-white" data-aos="fade-up" style="max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+                <p class="text-center text-white" data-aos="fade-up" 
+                style="font-family: 'Jockey One', sans-serif; max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
                     Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
                 </p>
             </div>
