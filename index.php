@@ -184,7 +184,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light"> <!-- Caso precise de logotipo --> <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span class="navbar-toggler-icon"></span> </button>
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent"> <!-- Caso precise de logotipo --> <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <div class="nav-item nav-link">
@@ -202,17 +202,19 @@
     </nav>
     <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
-    <section id="inicio">
+    <section id="inicio" style="position: relative;">
         <!-- Background image -->
-        <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
-        <img class="img-fluid w-100 d-md-none" src="images/space_mobile.jpg" alt="Mobile background" style="min-height: 100vh; object-fit: cover;">
-
-        <!-- Content overlay -->
-        <div class="position-absolute top-50 start-50 translate-middle text-center w-100 px-4">
-            <img class="img-fluid mb-4" data-aos="flip-up" src="images/texto.png" alt="Text image">
-            <p class="text-center text-white" data-aos="fade-up">
-                Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
-            </p>
+        <div style="position: relative;">
+            <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
+            <img class="img-fluid w-100 d-md-none" src="images/space_mobile.jpg" alt="Mobile background" style="min-height: 100vh; object-fit: cover;">
+        
+            <!-- Content overlay -->
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; padding: 0 20px;">
+                <img class="img-fluid mb-4" data-aos="flip-up" src="images/texto.png" alt="Text image" style="max-width: 80%;">
+                <p class="text-center text-white" data-aos="fade-up" style="max-width: 800px; margin: 0 auto;">
+                    Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
+                </p>
+            </div>
         </div>
     </section>
 
