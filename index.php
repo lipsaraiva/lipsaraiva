@@ -32,10 +32,10 @@
                 </div> 
             </div>
         </div>
-    </nav> <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </nav> 
+    <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    
     <section id="inicio">
-        <div class="row">
-            <div class="col-12 position-relative">
             <!-- Background image -->
             <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
             <img class="img-fluid w-100 d-md-none" src="images/space_mobile.jpg" alt="Mobile background" style="min-height: 100vh; object-fit: cover;">
@@ -47,9 +47,8 @@
                     Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
                 </p>
             </div>
-            </div>
-        </div>
     </section>
+
     <section id="webdesign">
         <div class="row">
             <div class="col-md-2 my-auto">
