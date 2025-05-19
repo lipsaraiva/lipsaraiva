@@ -26,7 +26,7 @@
                         <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">SISTEMAS</a><br>
                         <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN</a><br> 
                         <a href="#sobre" class="drop-link" style="color: #aba8ad;">SOBRE</a><br>
-                        <a href="#contato" class="drop-link" style="color: #aba8ad;">CONTATO</a>
+                        <a href="#contato" class="drop-link" style="color: #aba8ad;">CONTATO</a><br>
                         <a href="https://lipsaraiva.com.br/blog" target="_blank" class="drop-link" style="color:rgb(96, 0, 160);">ARTIGOS</a>
                     </p>
                 </div> 
@@ -35,11 +35,18 @@
     </nav> <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
     <section id="inicio">
         <div class="row">
-            <div class="col-md-6 my-auto"> <img class="img-fluid" src="images/capa.png" data-aos="zoom-in"> </div>
-            <div class="col-md-6 my-auto"> <img class="img-fluid" data-aos="flip-up" src="images/texto.png">
-                <p class="text-center" data-aos="fade-up">
+            <div class="col-12 position-relative">
+            <!-- Background image -->
+            <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
+            <img class="img-fluid w-100 d-md-none" src="images/space_mobile.jpg" alt="Mobile background" style="min-height: 100vh; object-fit: cover;">
+            
+            <!-- Content overlay -->
+            <div class="position-absolute top-50 start-50 translate-middle text-center w-100 px-4">
+                <img class="img-fluid mb-4" data-aos="flip-up" src="images/texto.png" alt="Text image">
+                <p class="text-center text-white" data-aos="fade-up">
                     Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
                 </p>
+            </div>
             </div>
         </div>
     </section>
