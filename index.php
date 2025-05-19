@@ -184,7 +184,7 @@
 </head>
 
 <body>
-    <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <!-- <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top" style="width: 100%; z-index: 1000;"> 
         <!-- Caso precise de logotipo --> 
         <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> 
