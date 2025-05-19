@@ -184,11 +184,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent"> <!-- Caso precise de logotipo --> <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span class="navbar-toggler-icon"></span> </button>
+    <nav class="navbar navbar-expand-md" style="background: transparent !important;"> <!-- Caso precise de logotipo --> <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <div class="nav-item nav-link">
-                    <p class="mb-3">
+                    <p class="my-4">
                         <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEBSITES</a><br>
                         <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">SISTEMAS</a><br>
                         <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN</a><br>
@@ -211,7 +211,7 @@
             <!-- Content overlay -->
             <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; padding: 0 20px;">
                 <img class="img-fluid mb-4" data-aos="flip-up" src="images/texto.png" alt="Text image" style="max-width: 80%;">
-                <p class="text-center text-white" data-aos="fade-up" style="max-width: 800px; margin: 0 auto;">
+                <p class="text-center text-white" data-aos="fade-up" style="max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
                     Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
                 </p>
             </div>
