@@ -11,7 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Saira+Condensed&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/ekko-lightbox.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -22,8 +22,8 @@
             scroll-behavior: smooth;
             overflow-x: hidden;
             min-height: 100% !important;
-            padding: 0px;
-            margin: 0px;
+            /* padding: 0px;
+            margin: 0px; */
         }
 
         body {
@@ -203,10 +203,10 @@
             <!-- Content overlay -->
             <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; padding: 0 20px;">
                 <div class="text-center">
-                    <p style="font-family: 'Jockey One', sans-serif; font-size: 5rem;">SARAIVA</p>
+                    <p style="font-family: 'Jockey One', sans-serif; font-size: 5rem; color: transparent; -webkit-text-stroke: 2px white;">SARAIVA</p>
                 </div>
                 <p class="text-center text-white" data-aos="fade-up" 
-                style="font-family: 'Jockey One', sans-serif; max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+                style="font-family: 'Saira Condensed', sans-serif; max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
                     Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
                 </p>
             </div>
