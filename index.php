@@ -11,7 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/ekko-lightbox.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -61,20 +61,12 @@
         /* NAVBAR */
 
         .nav-link {
-            color: #ffffff !important;
-            font-family: 'Oswald', sans-serif;
-            font-size: 2rem;
-            font-weight: 200;
-            padding-right: 300px;
-        }
-
-        .drop-link {
-            display: block;
-            background-color: #ffffff;
-            padding: 0.5rem;
-            font-size: 1rem;
+            font-family: "Jockey One", sans-serif;
             font-weight: 400;
-            margin-bottom: -2.5rem;
+            font-style: normal;
+            color: #ffffff !important;
+            font-size: 0.8rem;
+            font-weight: 200;
         }
 
         /* FIM: NAVBAR */
@@ -190,13 +182,13 @@
 
 <body>
     <!-- <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
-    <nav class="navbar navbar-expand navbar-light fixed-top" style="width: 100%; z-index: 1000; background-color: rgba(255,255,255,0.9);">
+    <nav class="navbar navbar-expand navbar-light fixed-top" style="width: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.9);">
         <div class="container">
             <div class="navbar-nav mx-auto">
-                <a href="#webdesign" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">WORKS</a>
-                <a href="#sobre" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">SOBRE</a>
-                <a href="#contato" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">CONTATO</a>
-                <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-item nav-link" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">ARTIGOS</a>
+                <a href="#webdesign" class="nav-item nav-link" style="color: #ffffff;">WORKS</a>
+                <a href="#sobre" class="nav-item nav-link" style="color: #ffffff;">SOBRE</a>
+                <a href="#contato" class="nav-item nav-link" style="color: #ffffff;">CONTATO</a>
+                <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-item nav-link" style="color: #ffffff;">ARTIGOS</a>
             </div>
         </div>
     </nav>
