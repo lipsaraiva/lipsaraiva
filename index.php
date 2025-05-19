@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <div class="nav-item nav-link">
-                    <p>
+                    <p class="mb-3">
                         <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEBSITES</a><br> 
                         <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">SISTEMAS</a><br>
                         <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN</a><br> 
@@ -34,7 +34,7 @@
         </div>
     </nav> 
     <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-    
+
     <section id="inicio">
             <!-- Background image -->
             <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
