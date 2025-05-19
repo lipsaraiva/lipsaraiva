@@ -25,7 +25,6 @@
 
         body {
             font-family: 'Montserrat', sans-serif;
-            background-color: #4ABCAD !important;
             color: #ffffff;
             line-height: normal;
             padding: 0px;
@@ -74,10 +73,6 @@
         }
 
         /* FIM: NAVBAR */
-
-        #inicio {
-            padding: 0px 3rem 50px 3rem;
-        }
 
         #webdesign {
             padding: 50px 3rem 50px 3rem;
