@@ -22,8 +22,8 @@
             scroll-behavior: smooth;
             overflow-x: hidden;
             min-height: 100% !important;
-            /* padding: 0px;
-            margin: 0px; */
+            padding: 0px;
+            margin: 0px;
         }
 
         body {
@@ -181,7 +181,7 @@
 <body>
     <!-- <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
     <nav class="navbar navbar-expand navbar-light" 
-    style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.9);">
+    style="position: fixed; top: 0; height: 60px; width: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.9);">
         <div class="container">
             <div class="navbar-nav mx-auto">
                 <a href="#inicio" class="nav-item nav-link" style="color: #ffffff;"><i class="fa fa-home"></i></a>
