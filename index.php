@@ -1,273 +1,163 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="pt-br">
+
 <head>
+    <title>Felipe Saraiva - Front-end & Back-end</title> <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Landing Page - Serviços de Programação</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        :root {
-            --primary-color: #2563eb;
-            --secondary-color: #1e40af;
-            --text-color: #333;
-            --light-bg: #f8fafc;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.8;
-            color: var(--text-color);
-        }
-
-        .parallax-header {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/random/1920x1080?coding');
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
-            color: white;
-        }
-
-        .hero {
-            height: calc(100vh - 60px);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 0 20px;
-        }
-
-        .hero h1 {
-            font-size: 4rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            animation: fadeIn 1s ease-in;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-        }
-
-        section {
-            padding: 6rem 2rem;
-            background: var(--light-bg);
-        }
-
-        section h2 {
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-            position: relative;
-            display: inline-block;
-        }
-
-        section h2::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 100%;
-            height: 3px;
-            background: var(--primary-color);
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            padding: 2rem;
-        }
-
-        .service-card {
-            padding: 2.5rem;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-        }
-
-        .service-card h3 {
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-            font-size: 1.5rem;
-        }
-
-        #contact-form {
-            max-width: 600px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        #contact-form input,
-        #contact-form textarea {
-            padding: 1rem;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
-            transition: border-color 0.3s ease;
-        }
-
-        #contact-form input:focus,
-        #contact-form textarea:focus {
-            outline: none;
-            border-color: var(--primary-color);
-        }
-
-        button {
-            padding: 1rem 2rem;
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background: var(--secondary-color);
-        }
-
-        footer {
-            background: #1f2937;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* Adicionando animações de entrada */
-        .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-
-        .animate-on-scroll.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" /> <!-- Fontes Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ekko-lightbox.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    
-    <header class="parallax-header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/blog">Artigos</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-md navbar-light"> <!-- Caso precise de logotipo --> <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <div class="nav-item nav-link">
+                    <p>PORTIFOLIO</p>
+                    <p> <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEB DESIGN</a><br> <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN GRÁFICO</a><br> <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">DESENVOLVIMENTO WEB</a> </p>
+                </div> <a href="#sobre" class="nav-item nav-link">SOBRE</a> <a href="#contato" class="nav-item nav-link">CONTATO</a>
             </div>
-        </nav>
-        <div class="hero">
-            <h1>Serviços de Programação</h1>
-            <p>Soluções tecnológicas para seu negócio</p>
         </div>
-    </header>
-
-    <main>
-        <section id="services" class="parallax-section">
-            <h2>Nossos Serviços</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Desenvolvimento Web</h3>
-                    <p>Sites e aplicações web modernas</p>
+    </nav> <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <section id="inicio">
+        <div class="row">
+            <div class="col-md-6 my-auto"> <img class="img-fluid" src="images/capa.png" data-aos="zoom-in"> </div>
+            <div class="col-md-6 my-auto"> <img class="img-fluid" data-aos="flip-up" src="images/texto.png">
+                <p class="text-center" data-aos="fade-up">Olá, sou um desenvolvedor front-end e back-end.<br>Seja bem vindo ao meu portifólio.</p>
+            </div>
+        </div>
+    </section>
+    <section id="webdesign">
+        <div class="row">
+            <div class="col-md-2 my-auto">
+                <p class="titulo" data-aos="fade-up">WEB DESIGN</p>
+            </div>
+            <div class="col-md-10 my-auto">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-2 nopadding"> <a href="images/wd_imoveisfabiana.jpg" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_imoveisfabiana.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/wd_miltonrego.jpg" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_miltonrego.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/wd_aben.jpg" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_aben.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/wd_croaciamc.jpg" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_croaciamc.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/wd_estafacil.jpg" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_estafacil.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/wd_comapizza.jpg" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_comapizza.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-2 nopadding"> <a href="images/wd_eurotruck.png" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_eurotruck.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/wd_midiacenter.png" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_midiacenter.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/wd_jfaramados.png" data-toggle="lightbox" data-gallery="wd"> <img src="images/wd_jfaramados.png" class="img-fluid yespadding" alt="Web Design"> </a> </div>
+                        <div class="col-md-2 nopadding"></div>
+                        <div class="col-md-2 nopadding"></div>
+                        <div class="col-md-2 nopadding"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>...Além de muitos outros trabalhos em serviços prestados por agências como terceirizado.</p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Add more service cards -->
             </div>
-        </section>
-
-        <section id="about" class="parallax-section">
-            <h2>Sobre Nós</h2>
-            <div class="about-content">
-                <p>Sua descrição aqui...</p>
+        </div>
+    </section>
+    <section id="designgrafico">
+        <div class="row">
+            <div class="col-md-2 my-auto">
+                <p class="titulo" data-aos="fade-up">DESIGN GRÁFICO</p>
             </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contato</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Seus Direitos Reservados</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <div class="col-md-10 my-auto">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-2 nopadding"> <a href="images/dg_imoveisfabiana.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_imoveisfabiana.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dg_pontocar.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_pontocar.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dg_dihelena.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_dihelena.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dg_impactrue.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_impactrue.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dg_jfaramados.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_jfaramados.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dg_lincoln.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_lincoln.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-2 nopadding"> <a href="images/dg_waraduu.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_waraduu.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dg_warrior.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_warrior.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dg_waywarrior.png" data-toggle="lightbox" data-gallery="dg"> <img src="images/dg_waywarrior.png" class="img-fluid yespadding" alt="Design Gráfico"> </a> </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="desenvolvimentoweb">
+        <div class="row">
+            <div class="col-md-2 my-auto">
+                <p class="titulo" data-aos="fade-up">DESENVOLVIMENTO WEB</p>
+            </div>
+            <div class="col-md-10 my-auto">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-2 nopadding"> <a href="images/dev_crm.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_crm.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dev_guias.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_guias.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dev_monstros.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_monstros.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dev_mural.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_mural.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"></div>
+                        <div class="col-md-2 nopadding"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>...Além de muitos outros trabalhos desenvolvidos. Entre em contato para saber mais</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="row">
+            <div class="col-md-2 my-auto">
+                <p class="titulo" data-aos="fade-up">SOBRE</p>
+            </div>
+            <div class="col-md-3 my-auto"> <img src="images/felipe.png" class="img-fluid" data-aos="zoom-in"> </div>
+            <div class="col-md-7 my-auto">
+                <p>Prossigo na eterna busca em descobrir as melhores maneiras de desenvolver softwares, definir processos e gerenciar equipes. Sou prestativo, focado e de fácil relacionamento. Iniciei a carreira como designer gráfico e web e há mais de 20 anos carrego comigo a paixão pelo front-end e back-end na área de desenvolvimento. Constantemente busco aumentar meu know-how para ser capaz de entregar produtos e serviços que realmente possam fazer a diferença na vida das pessoas.</p>
+                <hr style="color: #aba8ad;">
+                <h5>Minhas ferramentas:</h5>
+                <ul>
+                    <li>HTML/CSS/Javascript</li>
+                    <li>PHP/MySQL/SQL</li>
+                    <li>Bootstrap</li>
+                    <li>Codeigniter</li>
+                    <li>Adobe: Photoshop/Illustrator/Premiere</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="row">
+            <div class="col-md-2 my-auto">
+                <p class="titulo" data-aos="fade-up">CONTATO</p>
+            </div>
+            <div class="col-md-8 my-auto">
+                <form name="formulario" id="formulario" action="contato.php" method="POST"> <input type="text" class="form-control yespadding" id="nom" placeholder="Nome Completo" name="nome" required> <input type="text" class="form-control yespadding" id="tel" placeholder="Telefone" name="telefone"> <input type="email" class="form-control yespadding" id="ema" placeholder="Email" name="email" required> <textarea class="form-control yespadding" id="men" rows="5" name="mensagem" placeholder="Deixe a sua mensagem" required></textarea> <button type="submit" name="submit" class="btn btn-block btn-success yespadding" onclick="return js_validar()">Enviar</button> </form>
+            </div>
+            <div class="col-md-2 my-auto"> <a href="https://www.linkedin.com/in/lipsaraiva/" target="_blank"> <img src="images/linkedIn.png" class="img-fluid" style="max-height: 80px;"> </a> </div>
+        </div>
+    </section> <!-- Optional JavaScript --> <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/ekko-lightbox.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/aos.settings.js"></script>
     <script>
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Simple parallax effect
-        window.addEventListener('scroll', function() {
-            const parallaxSections = document.querySelectorAll('.parallax-section');
-            parallaxSections.forEach(section => {
-                const scrolled = window.pageYOffset;
-                const rate = scrolled * 0.5;
-                section.style.backgroundPosition = `center ${rate}px`;
-            });
-        });
-
-        // Form submission
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Formulário enviado! (Esta é apenas uma demonstração)');
-        });
+        //Config do lightbox $(document).on('click', '[data-toggle="lightbox"]', function(event) { event.preventDefault(); $(this).ekkoLightbox(); }); //Config do scroll para o topo $(window).scroll(function() { if ($(this).scrollTop() >= 50) { $('#return-to-top').fadeIn(200); } else { $('#return-to-top').fadeOut(200); } }); //Config do scroll para o topo $('#return-to-top').click(function() { $('body,html').animate({ scrollTop : 0 }, 500); }); 
     </script>
 </body>
+
 </html>
-
-
-
