@@ -184,7 +184,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md" style="background: transparent !important;"> <!-- Caso precise de logotipo --> <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span class="navbar-toggler-icon"></span> </button>
+    <nav class="navbar navbar-expand-md navbar-light" style="position: absolute; width: 100%; z-index: 1000;"> 
+        <!-- Caso precise de logotipo --> 
+        <!-- <a href="#" class="navbar-brand"><img src="images/logotipo.png" height="100" alt="CoolBrand"></a> --> 
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> 
+            <span class="navbar-toggler-icon"></span> 
+        </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <div class="nav-item nav-link">
@@ -202,7 +207,7 @@
     </nav>
     <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
-    <section id="inicio" style="position: relative;">
+    <section id="inicio">
         <!-- Background image -->
         <div style="position: relative;">
             <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
