@@ -14,6 +14,178 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/ekko-lightbox.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        /* GERAL */
+
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            min-height: 100% !important;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #4ABCAD !important;
+            color: #ffffff;
+            line-height: normal;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a:link {
+            text-decoration: none !important;
+            color: #ffffff;
+        }
+
+        a:visited {
+            text-decoration: none !important;
+            color: #ffffff;
+        }
+
+        a:hover {
+            text-decoration: none !important;
+            color: #ffffff;
+        }
+
+        a:active {
+            text-decoration: none !important;
+            color: #ffffff;
+        }
+
+        /* FIM: GERAL */
+
+        /* NAVBAR */
+
+        .nav-link {
+            color: #ffffff !important;
+            font-family: 'Oswald', sans-serif;
+            font-size: 2rem;
+            font-weight: 200;
+            padding-right: 300px;
+        }
+
+        .drop-link {
+            display: block;
+            background-color: #ffffff;
+            padding: 0.5rem;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: -2.5rem;
+        }
+
+        /* FIM: NAVBAR */
+
+        #inicio {
+            padding: 0px 3rem 50px 3rem;
+        }
+
+        #webdesign {
+            padding: 50px 3rem 50px 3rem;
+            background-color: #FF491B;
+        }
+
+        #designgrafico {
+            padding: 50px 3rem 50px 3rem;
+        }
+
+        #desenvolvimentoweb {
+            padding: 50px 3rem 50px 3rem;
+            background-color: #F8B732;
+        }
+
+        #sobre {
+            padding: 50px 3rem 50px 3rem;
+        }
+
+        #contato {
+            padding: 50px 3rem 50px 3rem;
+            background-color: #E0DCE4;
+        }
+
+        .titulo {
+            writing-mode: vertical-lr;
+            text-orientation: mixed;
+            font-size: 2.5rem;
+            font-weight: 200;
+            color: #ffffff !important;
+        }
+
+        .nopadding {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        .yespadding {
+            padding: 5px !important;
+            margin: 5px !important;
+        }
+
+
+
+        /* SCROLL */
+
+        #return-to-top {
+            position: fixed;
+            z-index: 99;
+            bottom: 20px;
+            right: 20px;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.7);
+            width: 50px;
+            height: 50px;
+            display: block;
+            text-decoration: none;
+            -webkit-border-radius: 35px;
+            -moz-border-radius: 35px;
+            border-radius: 35px;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        #return-to-top i {
+            color: #fff;
+            margin: 0;
+            position: relative;
+            left: 16px;
+            top: 13px;
+            font-size: 19px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        #return-to-top:hover {
+            background: rgba(0, 0, 0, 0.9);
+        }
+
+        #return-to-top:hover i {
+            color: #fff;
+            top: 5px;
+        }
+
+        /* FIM SCROLL */
+
+        /* MOBILE */
+
+        @media only screen and (max-width: 768px) {
+
+            .titulo {
+                writing-mode: horizontal-tb;
+                text-orientation: mixed;
+                font-size: 2.5rem;
+                font-weight: 200;
+                color: #ffffff !important;
+            }
+
+        }
+
+        /* FIM: MOBILE */
+    </style>
 </head>
 
 <body>
@@ -22,31 +194,31 @@
             <div class="navbar-nav ml-auto">
                 <div class="nav-item nav-link">
                     <p class="mb-3">
-                        <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEBSITES</a><br> 
+                        <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEBSITES</a><br>
                         <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">SISTEMAS</a><br>
-                        <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN</a><br> 
+                        <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN</a><br>
                         <a href="#sobre" class="drop-link" style="color: #aba8ad;">SOBRE</a><br>
                         <a href="#contato" class="drop-link" style="color: #aba8ad;">CONTATO</a><br>
                         <a href="https://lipsaraiva.com.br/blog" target="_blank" class="drop-link" style="color:rgb(96, 0, 160);">ARTIGOS</a>
                     </p>
-                </div> 
+                </div>
             </div>
         </div>
-    </nav> 
+    </nav>
     <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
     <section id="inicio">
-            <!-- Background image -->
-            <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
-            <img class="img-fluid w-100 d-md-none" src="images/space_mobile.jpg" alt="Mobile background" style="min-height: 100vh; object-fit: cover;">
-            
-            <!-- Content overlay -->
-            <div class="position-absolute top-50 start-50 translate-middle text-center w-100 px-4">
-                <img class="img-fluid mb-4" data-aos="flip-up" src="images/texto.png" alt="Text image">
-                <p class="text-center text-white" data-aos="fade-up">
-                    Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
-                </p>
-            </div>
+        <!-- Background image -->
+        <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
+        <img class="img-fluid w-100 d-md-none" src="images/space_mobile.jpg" alt="Mobile background" style="min-height: 100vh; object-fit: cover;">
+
+        <!-- Content overlay -->
+        <div class="position-absolute top-50 start-50 translate-middle text-center w-100 px-4">
+            <img class="img-fluid mb-4" data-aos="flip-up" src="images/texto.png" alt="Text image">
+            <p class="text-center text-white" data-aos="fade-up">
+                Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
+            </p>
+        </div>
     </section>
 
     <section id="webdesign">
