@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>Felipe Saraiva - Front-end & Back-end</title> <!-- Required meta tags -->
+    <title>Saraiva - Soluções para Web</title> <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
@@ -21,9 +21,15 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <div class="nav-item nav-link">
-                    <p>PORTIFOLIO</p>
-                    <p> <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEB DESIGN</a><br> <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN GRÁFICO</a><br> <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">DESENVOLVIMENTO WEB</a> </p>
-                </div> <a href="#sobre" class="nav-item nav-link">SOBRE</a> <a href="#contato" class="nav-item nav-link">CONTATO</a>
+                    <p>
+                        <a href="#webdesign" class="drop-link" style="color: #FF481B;">WEBSITES</a><br> 
+                        <a href="#desenvolvimentoweb" class="drop-link" style="color: #aba8ad;">SISTEMAS</a><br>
+                        <a href="#designgrafico" class="drop-link" style="color: #F8B732;">DESIGN</a><br> 
+                        <a href="#sobre" class="drop-link" style="color: #aba8ad;">SOBRE</a><br>
+                        <a href="#contato" class="drop-link" style="color: #aba8ad;">CONTATO</a>
+                        <a href="https://lipsaraiva.com.br/blog" target="_blank" class="drop-link" style="color:rgb(96, 0, 160);">ARTIGOS</a>
+                    </p>
+                </div> 
             </div>
         </div>
     </nav> <a href="#" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -31,14 +37,17 @@
         <div class="row">
             <div class="col-md-6 my-auto"> <img class="img-fluid" src="images/capa.png" data-aos="zoom-in"> </div>
             <div class="col-md-6 my-auto"> <img class="img-fluid" data-aos="flip-up" src="images/texto.png">
-                <p class="text-center" data-aos="fade-up">Olá, sou um desenvolvedor front-end e back-end.<br>Seja bem vindo ao meu portifólio.</p>
+                <p class="text-center" data-aos="fade-up">
+                    Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
+                </p>
             </div>
         </div>
     </section>
     <section id="webdesign">
         <div class="row">
             <div class="col-md-2 my-auto">
-                <p class="titulo" data-aos="fade-up">WEB DESIGN</p>
+                <p class="titulo" data-aos="fade-up">WEBSITES</p>
+                <p>Últimos Projetos</p>
             </div>
             <div class="col-md-10 my-auto">
                 <div class="container">
@@ -67,10 +76,36 @@
             </div>
         </div>
     </section>
+    <section id="desenvolvimentoweb">
+        <div class="row">
+            <div class="col-md-2 my-auto">
+                <p class="titulo" data-aos="fade-up">DESENVOLVIMENTO WEB</p>
+                <p>Últimos Projetos</p>
+            </div>
+            <div class="col-md-10 my-auto">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-2 nopadding"> <a href="images/dev_crm.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_crm.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dev_guias.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_guias.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dev_monstros.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_monstros.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"> <a href="images/dev_mural.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_mural.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
+                        <div class="col-md-2 nopadding"></div>
+                        <div class="col-md-2 nopadding"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>...Além de muitos outros trabalhos desenvolvidos. Entre em contato para saber mais</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="designgrafico">
         <div class="row">
             <div class="col-md-2 my-auto">
-                <p class="titulo" data-aos="fade-up">DESIGN GRÁFICO</p>
+                <p class="titulo" data-aos="fade-up">DESIGN</p>
+                <p>Últimos Projetos</p>
             </div>
             <div class="col-md-10 my-auto">
                 <div class="container">
@@ -89,30 +124,6 @@
                         <div class="col-md-2"></div>
                         <div class="col-md-2"></div>
                         <div class="col-md-2"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="desenvolvimentoweb">
-        <div class="row">
-            <div class="col-md-2 my-auto">
-                <p class="titulo" data-aos="fade-up">DESENVOLVIMENTO WEB</p>
-            </div>
-            <div class="col-md-10 my-auto">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-md-2 nopadding"> <a href="images/dev_crm.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_crm.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
-                        <div class="col-md-2 nopadding"> <a href="images/dev_guias.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_guias.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
-                        <div class="col-md-2 nopadding"> <a href="images/dev_monstros.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_monstros.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
-                        <div class="col-md-2 nopadding"> <a href="images/dev_mural.jpg" data-toggle="lightbox" data-gallery="dev"> <img src="images/dev_mural.png" class="img-fluid yespadding" alt="Desenvolvimento Web"> </a> </div>
-                        <div class="col-md-2 nopadding"></div>
-                        <div class="col-md-2 nopadding"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p>...Além de muitos outros trabalhos desenvolvidos. Entre em contato para saber mais</p>
-                        </div>
                     </div>
                 </div>
             </div>
