@@ -22,18 +22,16 @@
             scroll-behavior: smooth;
             overflow-x: hidden;
             min-height: 100% !important;
+            padding: 0px;
+            margin: 0px;
         }
 
         body {
-
             font-family: "Michroma", sans-serif;
             font-weight: 400;
             font-style: normal;
-
             color: #ffffff;
             line-height: normal;
-            padding: 0px;
-            margin: 0px;
         }
 
         a:link {
@@ -185,6 +183,7 @@
     <nav class="navbar navbar-expand navbar-light fixed-top" style="width: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.9);">
         <div class="container">
             <div class="navbar-nav mx-auto">
+                <a href="#inicio" class="nav-item nav-link" style="color: #ffffff;"><i class="fa fa-home"></i></a>
                 <a href="#webdesign" class="nav-item nav-link" style="color: #ffffff;">WORKS</a>
                 <a href="#sobre" class="nav-item nav-link" style="color: #ffffff;">SOBRE</a>
                 <a href="#contato" class="nav-item nav-link" style="color: #ffffff;">CONTATO</a>
