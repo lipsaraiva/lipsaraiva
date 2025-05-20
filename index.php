@@ -527,7 +527,8 @@
                 <p style="font-family: 'Jockey One', sans-serif; font-size: 7rem; color: transparent; -webkit-text-stroke: 1px white;">SARAIVA</p>
             </div>
             <p class="text-center text-white" 
-            style="font-family: 'Saira Condensed', sans-serif; max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+            style="font-family: 'Saira Condensed', sans-serif; font-size: 0.8rem; line-height: normal;
+            max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
                 Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
             </p>
         </div>
@@ -542,7 +543,7 @@
                 <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" style="background-image: url('/api/placeholder/1920/1080')">
+                <div class="carousel-item active" style="background-image: url('/images/space_mobile.jpg')">
                     <div class="carousel-caption">
                         <h3>Projeto 1</h3>
                         <p>Uma descrição detalhada do nosso primeiro projeto incrível que demonstra nossas habilidades e competências.</p>
