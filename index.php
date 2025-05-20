@@ -280,7 +280,7 @@
 
                     <!-- Card 4 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #141E30, #243B55);">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(6, 99, 10),rgb(20, 199, 29));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Soluções feitas sob medida pro seu negócio ou projeto.</p>
@@ -300,7 +300,7 @@
 
                     <!-- Card 6 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #0F2027, #203A43);">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(177, 88, 117),rgb(94, 6, 86));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-share-alt"></i> Redes sociais</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
@@ -311,7 +311,7 @@
                 </div>
             </div>
             <p class="text-center" style="font-size: 0.9rem;">
-                Quer saber os valores? Entre em contato e vamos montar o pacote ideal pra você.
+                Quer saber os valores? <br>Entre em <a href="#contato"><strong>contato</strong></a> e vamos montar o pacote ideal pra você.
             </p>
         </div>
     </section>
