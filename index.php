@@ -243,14 +243,8 @@
     </section>
 
     <!-- Seção Serviços -->
-    <section id="servicos" class="section">
+    <section id="servicos" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
-            <div class="text-center" data-aos="zoom-in">
-                <p style="font-family: 'Gugi', sans-serif; font-size: 1rem;">Meus Serviços</p>
-            </div>
-            <p class="text-center" style="font-size: 0.9rem;">
-                Trabalho com tecnologia e internet há mais de 25 anos, atendendo agências, empresas e profissionais com soluções digitais sob medida. Se você precisa de alguém experiente, prático e que entrega, chegou ao lugar certo. Confira o que posso fazer por você:
-            </p>
             <div class="container">
                 <div class="row row-cols-2 gx-2">
                     
@@ -326,7 +320,7 @@
                     
                 </div>
             </div>
-            <p class="text-center">
+            <p class="text-center" style="font-size: 0.9rem;">
                 Quer saber os valores? Entre em contato e vamos montar o pacote ideal pra você.
             </p>
         </div>
