@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <meta name="description" content="Serviços de tecnologia, desenvolvimento web e design. Criação de sites, sistemas, hospedagem e soluções digitais personalizadas.">
+    <meta name="keywords" content="desenvolvimento web, web design, criação de sites, sistemas web, hospedagem, design gráfico, tecnologia, desenvolvimento de software">
+    <meta name="author" content="lipSaraiva">
+    <meta name="robots" content="index, follow">
+    <title>lipSaraiva - Desenvolvimento Web, Design e Soluções Digitais</title>
     <link rel="stylesheet" href="css/aos.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Gugi&family=Saira+Condensed,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Jockey+One&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <style>
         /* Estilos Gerais */
