@@ -348,7 +348,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Londrina+Outline&family=Saira+Condensed&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Gugi&family=Saira+Condensed&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     
     <style>
         /* Estilos Gerais */
@@ -524,7 +524,7 @@
     <section id="inicio" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
             <div class="text-center">
-                <p style="font-family: 'Londrina Outline', sans-serif; font-size: 7rem; color: transparent !important; -webkit-text-stroke: 1px white;">SARAIVA</p>
+                <p style="font-family: 'Gugi', sans-serif; font-size: 7rem; color: transparent !important; -webkit-text-stroke: 1px white;">SARAIVA</p>
             </div>
             <p class="text-center text-white" 
             style="font-family: 'Saira Condensed', sans-serif; font-size: 0.9rem; line-height: normal;
