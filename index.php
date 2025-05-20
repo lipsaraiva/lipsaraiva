@@ -525,7 +525,7 @@
     <!-- Seção Início -->
     <section id="inicio" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
-            <div class="text-center" data-aos="fade-up">
+            <div class="text-center" data-aos="zoom-in">
                 <p style="font-family: 'Gugi', sans-serif; font-size: 4rem;">SARAIVA</p>
             </div>
             <p class="text-center text-white" data-aos="fade-up"
@@ -641,6 +641,7 @@
     <!-- Bootstrap JS e Popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/aos.settings.js"></script>
 
     <!-- JavaScript personalizado para rolagem suave -->
     <script>
