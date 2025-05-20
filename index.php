@@ -522,11 +522,11 @@
 
     <!-- Seção Início -->
     <section id="inicio" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;"></section>
-        <div class="content">
+        
             <h1>Bem-vindo à Nossa Landing Page</h1>
             <p>Somos uma empresa criativa especializada em design e desenvolvimento de soluções digitais inovadoras.</p>
             <a href="#works" class="btn btn-primary btn-lg">Conheça Nossos Trabalhos</a>
-        </div>
+     
     </section>
 
     <!-- Seção Works (Carrossel) -->
