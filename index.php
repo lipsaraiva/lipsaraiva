@@ -369,15 +369,18 @@
         }
         
         .navbar-nav .nav-link {
-            color: #fff;
             margin: 0 15px;
-            font-weight: 500;
-            font-size: 18px;
             transition: color 0.3s ease;
+            font-family: "Jockey One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #ffffff !important;
+            font-size: 0.8rem;
+            font-weight: 200;
         }
         
         .navbar-nav .nav-link:hover {
-            color: #17a2b8;
+            color:rgb(191, 94, 236);
         }
         
         /* Seções de Página Inteira */
@@ -492,11 +495,10 @@
     <!-- Menu Fixo -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand text-white" href="#inicio">Logo</a>
-            <div class="navbar-collapse">
-                <ul class="navbar-nav ms-auto">
+            <div class="navbar-collapse justify-content-center">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#inicio">Início</a>
+                        <a class="nav-link" href="#inicio"><i class="fas fa-home"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#works">Works</a>
