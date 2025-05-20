@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Gugi&family=Saira+Condensed&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Gugi&family=Saira+Condensed:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <style>
         /* Estilos Gerais */
@@ -19,7 +19,9 @@
         }
 
         body {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
+            font-size: 0.9rem;
+            line-height: 1;
             margin: 0;
             padding: 0;
         }
@@ -199,7 +201,7 @@
 
     <!-- Seção Jobs (Carrossel) -->
     <section id="jobs" class="section">
-        <div id="carouselJobs" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselJobs" class="carousel slide h-100" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="1" aria-label="Slide 2"></button>
