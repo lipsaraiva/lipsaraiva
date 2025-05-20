@@ -250,7 +250,7 @@
                     
                     <!-- Card 1 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #1a2a6c, #b21f1f);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Sites bonitos, rápidos e pensados pra converter.</p>
@@ -260,7 +260,7 @@
 
                     <!-- Card 2 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #2C3E50, #3498DB);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
@@ -270,7 +270,7 @@
 
                     <!-- Card 3 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #4A00E0, #8E2DE2);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
@@ -280,7 +280,7 @@
 
                     <!-- Card 4 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #141E30, #243B55);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Soluções feitas sob medida pro seu negócio ou projeto.</p>
@@ -290,7 +290,7 @@
                     
                     <!-- Card 5 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #614385, #516395);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-palette"></i> Design gráfico e web</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Visual bonito e profissional, do jeito que sua marca merece.</p>
@@ -300,17 +300,7 @@
 
                     <!-- Card 6 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-video"></i> Edição de vídeo</h4>
-                                <p class="card-text" style="font-size: 0.9rem">Vídeos bem editados pra destacar sua ideia nas redes.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 7 -->
-                    <div class="col mb-4" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #0F2027, #203A43);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-share-alt"></i> Redes sociais</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
