@@ -18,7 +18,7 @@
             scroll-behavior: smooth;
             font-family: 'Saira Condensed', sans-serif !important;
             font-size: 0.9rem !important;
-            line-height: 1 !important;
+            line-height: normal !important;
         }
 
         body {
@@ -250,7 +250,7 @@
                     
                     <!-- Card 1 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 103, 26, 0.8),rgba(243, 168, 7, 0.8));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Sites bonitos, rápidos e pensados pra converter.</p>
@@ -260,7 +260,7 @@
 
                     <!-- Card 2 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #2C3E50, #3498DB);">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
@@ -270,7 +270,7 @@
 
                     <!-- Card 3 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #4A00E0, #8E2DE2);">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
@@ -280,7 +280,7 @@
 
                     <!-- Card 4 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(6, 99, 10),rgb(20, 199, 29));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Soluções feitas sob medida pro seu negócio ou projeto.</p>
@@ -300,7 +300,7 @@
 
                     <!-- Card 6 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(177, 88, 117),rgb(94, 6, 86));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-share-alt"></i> Redes sociais</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
@@ -310,7 +310,7 @@
                     
                 </div>
             </div>
-            <p class="text-center" style="font-size: 0.9rem;">
+            <p class="text-center mt-3" style="font-size: 0.9rem;">
                 Quer saber os valores? <br>Entre em <a href="#contato"><strong>contato</strong></a> e vamos montar o pacote ideal pra você.
             </p>
         </div>
