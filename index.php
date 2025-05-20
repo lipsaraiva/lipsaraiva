@@ -524,7 +524,7 @@
     <section id="inicio" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
             <div class="text-center">
-                <p style="font-family: 'Jockey One', sans-serif; font-size: 7rem; color: transparent; -webkit-text-stroke: 1px white;">SARAIVA</p>
+                <p style="font-family: 'Jockey One', sans-serif; font-size: 7rem; color: transparent !important; -webkit-text-stroke: 1px white;">SARAIVA</p>
             </div>
             <p class="text-center text-white" 
             style="font-family: 'Saira Condensed', sans-serif; font-size: 0.8rem; line-height: normal;
