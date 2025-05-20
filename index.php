@@ -205,12 +205,12 @@
 
     <section id="inicio">
         <!-- Background image -->
-        <div style="position: relative;">
+        <!-- <div style="position: relative;"> -->
             <img class="img-fluid w-100 d-none d-md-block" src="images/space.jpg" alt="Desktop background">
             <img class="img-fluid w-100 d-md-none" src="images/space_mobile.jpg" alt="Mobile background" style="min-height: 100vh; object-fit: cover;">
         
             <!-- Content overlay -->
-            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; padding: 0 20px;">
+            <!-- <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; padding: 0 20px;"> -->
                 <div class="text-center">
                     <p style="font-family: 'Jockey One', sans-serif; font-size: 7rem; color: transparent; -webkit-text-stroke: 1px white;">SARAIVA</p>
                 </div>
@@ -218,8 +218,8 @@
                 style="font-family: 'Saira Condensed', sans-serif; max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
                     Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
                 </p>
-            </div>
-        </div>
+            <!-- </div> -->
+        <!-- </div> -->
     </section>
 
     <section id="webdesign">
