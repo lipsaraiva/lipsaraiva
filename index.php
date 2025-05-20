@@ -347,6 +347,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Saira+Condensed&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
     <style>
         /* Estilos Gerais */
         html {
@@ -496,7 +500,16 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <div class="navbar-collapse justify-content-center">
-                <ul class="navbar-nav">
+
+                <div class="navbar-nav mx-auto">
+                    <a href="#inicio" class="nav-item nav-link"><i class="fa fa-home"></i></a>
+                    <a href="#works" class="nav-item nav-link">WORKS</a>
+                    <a href="#sobre" class="nav-item nav-link">SOBRE</a>
+                    <a href="#contato" class="nav-item nav-link">CONTATO</a>
+                    <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-item nav-link">ARTIGOS</a>
+                </div>
+
+                <!-- <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#inicio"><i class="fas fa-home"></i></a>
                     </li>
@@ -509,7 +522,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contato">Contato</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </nav>
