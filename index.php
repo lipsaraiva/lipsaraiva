@@ -348,7 +348,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Saira+Condensed&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Londrina+Outline&family=Saira+Condensed&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     
     <style>
         /* Estilos Gerais */
@@ -357,7 +357,7 @@
         }
         
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
         }
@@ -524,10 +524,10 @@
     <section id="inicio" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
             <div class="text-center">
-                <p style="font-family: 'Jockey One', sans-serif; font-size: 7rem; color: transparent !important; -webkit-text-stroke: 1px white;">SARAIVA</p>
+                <p style="font-family: 'Londrina Outline', sans-serif; font-size: 7rem; color: transparent !important; -webkit-text-stroke: 1px white;">SARAIVA</p>
             </div>
             <p class="text-center text-white" 
-            style="font-family: 'Saira Condensed', sans-serif; font-size: 0.8rem; line-height: normal;
+            style="font-family: 'Saira Condensed', sans-serif; font-size: 0.9rem; line-height: normal;
             max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
                 Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
             </p>
@@ -542,21 +542,24 @@
                 <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" style="background-image: url('/images/space_mobile.jpg')">
-                    <div class="carousel-caption">
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100">
+                    <img src="images/space_mobile.jpg" class="d-block w-100 h-100" alt="Projeto 1" style="object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3>Projeto 1</h3>
                         <p>Uma descrição detalhada do nosso primeiro projeto incrível que demonstra nossas habilidades e competências.</p>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('/api/placeholder/1920/1080')">
-                    <div class="carousel-caption">
+                <div class="carousel-item h-100">
+                    <img src="images/space.jpg" class="d-block w-100 h-100" alt="Projeto 2" style="object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3>Projeto 2</h3>
                         <p>Este é o nosso segundo projeto, que destaca nossa capacidade de criar soluções personalizadas para nossos clientes.</p>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('/api/placeholder/1920/1080')">
-                    <div class="carousel-caption">
+                <div class="carousel-item h-100">
+                    <img src="images/space_mobile.jpg" class="d-block w-100 h-100" alt="Projeto 3" style="object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3>Projeto 3</h3>
                         <p>Nosso terceiro projeto exemplifica nossa abordagem inovadora e nossa atenção aos detalhes.</p>
                     </div>
