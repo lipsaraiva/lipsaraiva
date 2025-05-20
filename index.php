@@ -219,10 +219,6 @@
         </div>
         <div class="carousel-inner h-100">
             <div class="carousel-item active h-100" data-bs-interval="10000">
-                <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.7); z-index: 2;">
-                    <h5 class="text-white">First slide label</h5>
-                    <p class="text-white">Some representative placeholder content for the first slide.</p>
-                </div>
                 <img src="images/embreve.png" class="d-block w-100 h-100" alt="Em Breve">
             </div>
             <!-- <div class="carousel-item" data-bs-interval="2000">
@@ -395,7 +391,7 @@
         <div class="container">
             <div class="row">
                 <div class="mt-4">
-                    <p>&copy; 2025 Todos os direitos reservados | lipsaraiva.com.br</p>
+                    <p class="text-center saira-condensed">&copy; 2025 Todos os direitos reservados | lipsaraiva.com.br</p>
                 </div>
             </div>
         </div>
