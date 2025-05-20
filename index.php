@@ -249,8 +249,8 @@
                 <div class="row row-cols-2 gx-2">
                     
                     <!-- Card 1 -->
-                    <div class="col mb-4" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(108, 103, 26),rgb(243, 168, 7));">
+                    <div class="col mb-2" data-aos="fade-up">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 103, 26, 0.8),rgba(243, 168, 7, 0.8));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Sites bonitos, rápidos e pensados pra converter.</p>
@@ -259,7 +259,7 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="col mb-4" data-aos="fade-up">
+                    <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg, #2C3E50, #3498DB);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
@@ -269,7 +269,7 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="col mb-4" data-aos="fade-up">
+                    <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg, #4A00E0, #8E2DE2);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
@@ -279,7 +279,7 @@
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="col mb-4" data-aos="fade-up">
+                    <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(6, 99, 10),rgb(20, 199, 29));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
@@ -289,7 +289,7 @@
                     </div>
                     
                     <!-- Card 5 -->
-                    <div class="col mb-4" data-aos="fade-up">
+                    <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg, #614385, #516395);">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-palette"></i> Design gráfico e web</h4>
@@ -299,7 +299,7 @@
                     </div>
 
                     <!-- Card 6 -->
-                    <div class="col mb-4" data-aos="fade-up">
+                    <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(177, 88, 117),rgb(94, 6, 86));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-share-alt"></i> Redes sociais</h4>
