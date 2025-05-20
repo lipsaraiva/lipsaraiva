@@ -104,17 +104,17 @@
 
         /* Estilos específicos para cada seção */
 
-        #jobs {
+        #cases {
             padding: 0;
         }
 
-        #jobs .carousel-item {
+        #cases .carousel-item {
             height: 100vh;
             background-size: cover;
             background-position: center;
         }
 
-        #jobs .carousel-caption {
+        #cases .carousel-caption {
             bottom: 20%;
             background-color: rgba(0, 0, 0, 0.6);
             padding: 30px;
@@ -164,19 +164,19 @@
         <div class="container">
             <div class="navbar-collapse justify-content-center">
                 <ul class="navbar-nav mx-auto d-flex flex-row text-center">
-                    <li class="nav-item mx-1">
+                    <li class="nav-item mx-2">
                         <a href="#inicio" class="nav-link text-center"><i class="fa fa-home"></i></a>
                     </li>
-                    <li class="nav-item mx-1">
-                        <a href="#jobs" class="nav-link text-center">JOBS</a>
+                    <li class="nav-item mx-2">
+                        <a href="#cases" class="nav-link text-center">CASES</a>
                     </li>
-                    <li class="nav-item mx-1">
+                    <li class="nav-item mx-2">
                         <a href="#servicos" class="nav-link text-center">SERVIÇOS</a>
                     </li>
-                    <li class="nav-item mx-1">
+                    <li class="nav-item mx-2">
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
-                    <li class="nav-item mx-1">
+                    <li class="nav-item mx-2">
                         <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-link text-center">ARTIGOS</a>
                     </li>
                 </ul>
@@ -198,8 +198,8 @@
         </div>
     </section>
 
-    <!-- Seção Jobs (Carrossel) -->
-    <section id="jobs" class="section">
+    <!-- Seção Cases (Carrossel) -->
+    <section id="cases" class="section">
 
     <div id="carouselExampleDark" class="carousel carousel-dark slide h-100">
         <div class="carousel-indicators">
@@ -243,11 +243,11 @@
 
 
 
-        <!-- <div id="carouselJobs" class="carousel slide h-100" data-bs-ride="carousel">
+        <!-- <div id="carouselCases" class="carousel slide h-100" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselCases" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselCases" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselCases" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner h-100">
                 <div class="carousel-item active  h-100">
@@ -273,11 +273,11 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselJobs" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCases" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselJobs" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCases" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </button>
