@@ -14,15 +14,22 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Jockey+One&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Jockey+One&family=Open+Sans&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <style>
         /* Estilos Gerais */
 
         .saira-condensed {
             font-family: 'Saira Condensed', sans-serif !important;
-            font-size: 0.9rem !important;
-            line-height: normal !important;
+            font-size: 1rem !important;
+            line-height: 100% !important;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        
+        .open-sans {
+            font-family: 'Open Sans', sans-serif !important;
+            font-size: 1rem !important;
+            line-height: 100% !important;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
 
@@ -300,7 +307,7 @@
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(171, 173, 80, 0.4),rgba(211, 205, 123, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title saira-condensed"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
-                                <p class="card-text saira-condensed">Sites bonitos, rápidos e pensados pra converter.</p>
+                                <p class="card-text open-sans">Sites bonitos, rápidos e pensados pra converter.</p>
                             </div>
                         </div>
                     </div>
@@ -310,7 +317,7 @@
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(95, 173, 80, 0.4),rgba(126, 211, 123, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title saira-condensed"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
-                                <p class="card-text saira-condensed">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
+                                <p class="card-text open-sans">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
                             </div>
                         </div>
                     </div>
@@ -320,7 +327,7 @@
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 173, 145, 0.4),rgba(123, 211, 196, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title saira-condensed"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
-                                <p class="card-text saira-condensed">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
+                                <p class="card-text open-sans">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
                             </div>
                         </div>
                     </div>
@@ -330,7 +337,7 @@
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 159, 173, 0.4),rgba(123, 186, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title saira-condensed"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
-                                <p class="card-text saira-condensed">Soluções feitas sob medida pro seu negócio ou projeto.</p>
+                                <p class="card-text open-sans">Soluções feitas sob medida pro seu negócio ou projeto.</p>
                             </div>
                         </div>
                     </div>
@@ -340,7 +347,7 @@
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(173, 80, 92, 0.4),rgba(229, 157, 163, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title saira-condensed"><i class="fas fa-palette"></i> Design gráfico e web</h4>
-                                <p class="card-text saira-condensed">Visual bonito e profissional, do jeito que sua marca merece.</p>
+                                <p class="card-text open-sans">Visual bonito e profissional, do jeito que sua marca merece.</p>
                             </div>
                         </div>
                     </div>
@@ -350,7 +357,7 @@
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title saira-condensed"><i class="fas fa-share-alt"></i> Redes sociais</h4>
-                                <p class="card-text saira-condensed">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
+                                <p class="card-text open-sans">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
                             </div>
                         </div>
                     </div>
