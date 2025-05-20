@@ -343,9 +343,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="css/aos.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -500,21 +499,21 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <div class="navbar-collapse justify-content-center">
-                <ul class="navbar-nav mx-auto d-flex flex-row">
+                <ul class="navbar-nav mx-auto d-flex flex-row text-center">
                     <li class="nav-item px-2">
-                        <a href="#inicio" class="nav-link"><i class="fa fa-home"></i></a>
+                        <a href="#inicio" class="nav-link text-center"><i class="fa fa-home"></i></a>
                     </li>
                     <li class="nav-item px-2">
-                        <a href="#works" class="nav-link">WORKS</a>
+                        <a href="#works" class="nav-link text-center">WORKS</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a href="#sobre" class="nav-link">SOBRE</a>
+                        <a href="#sobre" class="nav-link text-center">SOBRE</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a href="#contato" class="nav-link">CONTATO</a>
+                        <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-link">ARTIGOS</a>
+                        <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-link text-center">ARTIGOS</a>
                     </li>
                 </ul>
             </div>
@@ -522,7 +521,7 @@
     </nav>
 
     <!-- Seção Início -->
-    <section id="inicio" class="section">
+    <section id="inicio" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;"></section>
         <div class="content">
             <h1>Bem-vindo à Nossa Landing Page</h1>
             <p>Somos uma empresa criativa especializada em design e desenvolvimento de soluções digitais inovadoras.</p>
@@ -639,6 +638,7 @@
 
     <!-- Bootstrap JS e Popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
     
     <!-- JavaScript personalizado para rolagem suave -->
     <script>
