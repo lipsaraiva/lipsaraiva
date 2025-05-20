@@ -96,24 +96,24 @@
             background-image: url('/api/placeholder/1920/1080');
         }
 
-        #works {
+        #jobs {
             padding: 0;
         }
 
-        #works .carousel-item {
+        #jobs .carousel-item {
             height: 100vh;
             background-size: cover;
             background-position: center;
         }
 
-        #works .carousel-caption {
+        #jobs .carousel-caption {
             bottom: 20%;
             background-color: rgba(0, 0, 0, 0.6);
             padding: 30px;
             border-radius: 10px;
         }
 
-        #sobre {
+        #servicos {
             background-image: url('/api/placeholder/1920/1080');
         }
 
@@ -167,10 +167,10 @@
                         <a href="#inicio" class="nav-link text-center"><i class="fa fa-home"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#works" class="nav-link text-center">WORKS</a>
+                        <a href="#jobs" class="nav-link text-center">JOBS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#sobre" class="nav-link text-center">SOBRE</a>
+                        <a href="#servicos" class="nav-link text-center">SERVIÇOS</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
@@ -192,18 +192,18 @@
             <p class="text-center text-white" data-aos="fade-up"
                 style="font-family: 'Saira Condensed', sans-serif; font-size: 0.9rem; line-height: normal;
             max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
-                Com mais de 25 anos de experiência na área de tecnologia, ofereço soluções completas e personalizadas para a sua presença digital. Atuo com excelência em web design, design gráfico, desenvolvimento de sistemas web sob medida, além de serviços essenciais como hospedagem, manutenção de domínio e gestão de e-mails profissionais. Se você busca qualidade, confiabilidade e um parceiro com vasta expertise para impulsionar seu negócio online, estou pronto para transformar sua ideia em resultados.
+                Mais de 25 anos de experiência transformando ideias em presença digital! Soluções completas em web design, sistemas sob medida, hospedagem e muito mais — com qualidade, confiança e inovação para impulsionar seu negócio online.
             </p>
         </div>
     </section>
 
-    <!-- Seção Works (Carrossel) -->
-    <section id="works" class="section">
-        <div id="carouselWorks" class="carousel slide" data-bs-ride="carousel">
+    <!-- Seção Jobs (Carrossel) -->
+    <section id="jobs" class="section">
+        <div id="carouselJobs" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselJobs" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner h-100">
                 <div class="carousel-item active  h-100">
@@ -229,23 +229,102 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselWorks" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselJobs" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselWorks" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselJobs" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </button>
         </div>
     </section>
 
-    <!-- Seção Sobre -->
-    <section id="sobre" class="section">
+    <!-- Seção Serviços -->
+    <section id="servicos" class="section">
         <div class="content">
-            <h1>Sobre Nós</h1>
-            <p>Somos uma equipe apaixonada de profissionais criativos dedicados a oferecer soluções de design e desenvolvimento de alta qualidade. Com anos de experiência no mercado, nos esforçamos para superar as expectativas dos nossos clientes em cada projeto.</p>
-            <p>Nossa missão é transformar ideias em realidade digital, combinando criatividade, tecnologia e estratégia para criar experiências memoráveis.</p>
+            <div class="text-center" data-aos="zoom-in">
+                <p style="font-family: 'Gugi', sans-serif; font-size: 1rem;">Meus Serviços</p>
+            </div>
+            <p class="text-center">
+                Trabalho com tecnologia e internet há mais de 25 anos, atendendo agências, empresas e profissionais com soluções digitais sob medida. Se você precisa de alguém experiente, prático e que entrega, chegou ao lugar certo. Confira o que posso fazer por você:
+            </p>
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card bg-dark text-white h-100">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
+                                <p class="card-text">Sites bonitos, rápidos e pensados pra converter.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card bg-dark text-white h-100">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
+                                <p class="card-text">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card bg-dark text-white h-100">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
+                                <p class="card-text">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card bg-dark text-white h-100">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
+                                <p class="card-text">Soluções feitas sob medida pro seu negócio ou projeto.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card bg-dark text-white h-100">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="fas fa-palette"></i> Design gráfico e web</h4>
+                                <p class="card-text">Visual bonito e profissional, do jeito que sua marca merece.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card bg-dark text-white h-100">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="fas fa-video"></i> Edição de vídeo</h4>
+                                <p class="card-text">Vídeos bem editados pra destacar sua ideia nas redes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card bg-dark text-white h-100">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="fas fa-share-alt"></i> Redes sociais</h4>
+                                <p class="card-text">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">
+                Quer saber os valores? Entre em contato e vamos montar o pacote ideal pra você.
+            </p>
         </div>
     </section>
 
