@@ -37,7 +37,7 @@
 
         .navbar-nav .nav-link {
             transition: color 0.3s ease;
-            font-family: "Jockey One", sans-serif;
+            font-family: "Jockey One", sans-serif !important;
             font-weight: 400;
             font-style: normal;
             color: #ffffff !important;
@@ -160,19 +160,19 @@
         <div class="container">
             <div class="navbar-collapse justify-content-center">
                 <ul class="navbar-nav mx-auto d-flex flex-row text-center">
-                    <li class="nav-item">
+                    <li class="nav-item mx-1">
                         <a href="#inicio" class="nav-link text-center"><i class="fa fa-home"></i></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-1">
                         <a href="#jobs" class="nav-link text-center">JOBS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-1">
                         <a href="#servicos" class="nav-link text-center">SERVIÇOS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-1">
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-1">
                         <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-link text-center">ARTIGOS</a>
                     </li>
                 </ul>
