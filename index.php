@@ -500,29 +500,23 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <div class="navbar-collapse justify-content-center">
-
-                <div class="navbar-nav mx-auto">
-                    <a href="#inicio" class="nav-item nav-link"><i class="fa fa-home"></i></a>
-                    <a href="#works" class="nav-item nav-link">WORKS</a>
-                    <a href="#sobre" class="nav-item nav-link">SOBRE</a>
-                    <a href="#contato" class="nav-item nav-link">CONTATO</a>
-                    <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-item nav-link">ARTIGOS</a>
-                </div>
-
-                <!-- <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#inicio"><i class="fas fa-home"></i></a>
+                <ul class="navbar-nav mx-auto d-flex flex-row">
+                    <li class="nav-item px-2">
+                        <a href="#inicio" class="nav-link"><i class="fa fa-home"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#works">Works</a>
+                    <li class="nav-item px-2">
+                        <a href="#works" class="nav-link">WORKS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
+                    <li class="nav-item px-2">
+                        <a href="#sobre" class="nav-link">SOBRE</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
+                    <li class="nav-item px-2">
+                        <a href="#contato" class="nav-link">CONTATO</a>
                     </li>
-                </ul> -->
+                    <li class="nav-item px-2">
+                        <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-link">ARTIGOS</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
