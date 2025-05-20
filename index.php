@@ -219,9 +219,9 @@
         </div>
         <div class="carousel-inner h-100">
             <div class="carousel-item active h-100" data-bs-interval="10000">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.7); z-index: 2;">
+                    <h5 class="text-white">First slide label</h5>
+                    <p class="text-white">Some representative placeholder content for the first slide.</p>
                 </div>
                 <img src="images/embreve.png" class="d-block w-100 h-100" alt="Em Breve">
             </div>
@@ -306,8 +306,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(171, 173, 80, 0.4),rgba(211, 205, 123, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title saira-condensed"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
-                                <p class="card-text open-sans">Sites bonitos, rápidos e pensados pra converter.</p>
+                                <h4 class="card-title saira-condensed" style="font-size: 1.2rem;"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
+                                <p class="card-text saira-condensed">Sites bonitos, rápidos e pensados pra converter.</p>
                             </div>
                         </div>
                     </div>
@@ -316,8 +316,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(95, 173, 80, 0.4),rgba(126, 211, 123, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title saira-condensed"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
-                                <p class="card-text open-sans">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
+                                <h4 class="card-title saira-condensed" style="font-size: 1.2rem;"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
+                                <p class="card-text saira-condensed">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
                             </div>
                         </div>
                     </div>
@@ -326,8 +326,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 173, 145, 0.4),rgba(123, 211, 196, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title saira-condensed"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
-                                <p class="card-text open-sans">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
+                                <h4 class="card-title saira-condensed" style="font-size: 1.2rem;"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
+                                <p class="card-text saira-condensed">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
                             </div>
                         </div>
                     </div>
@@ -336,8 +336,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 159, 173, 0.4),rgba(123, 186, 211, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title saira-condensed"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
-                                <p class="card-text open-sans">Soluções feitas sob medida pro seu negócio ou projeto.</p>
+                                <h4 class="card-title saira-condensed" style="font-size: 1.2rem;"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
+                                <p class="card-text saira-condensed">Soluções feitas sob medida pro seu negócio ou projeto.</p>
                             </div>
                         </div>
                     </div>
@@ -346,8 +346,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(173, 80, 92, 0.4),rgba(229, 157, 163, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title saira-condensed"><i class="fas fa-palette"></i> Design gráfico e web</h4>
-                                <p class="card-text open-sans">Visual bonito e profissional, do jeito que sua marca merece.</p>
+                                <h4 class="card-title saira-condensed" style="font-size: 1.2rem;"><i class="fas fa-palette"></i> Design gráfico e web</h4>
+                                <p class="card-text saira-condensed">Visual bonito e profissional, do jeito que sua marca merece.</p>
                             </div>
                         </div>
                     </div>
@@ -356,8 +356,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title saira-condensed"><i class="fas fa-share-alt"></i> Redes sociais</h4>
-                                <p class="card-text open-sans">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
+                                <h4 class="card-title saira-condensed" style="font-size: 1.2rem;"><i class="fas fa-share-alt"></i> Redes sociais</h4>
+                                <p class="card-text saira-condensed">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
                             </div>
                         </div>
                     </div>
