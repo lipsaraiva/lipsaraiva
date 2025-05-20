@@ -99,9 +99,6 @@
         }
 
         /* Estilos específicos para cada seção */
-        #inicio {
-            background-image: url('/api/placeholder/1920/1080');
-        }
 
         #jobs {
             padding: 0;
@@ -118,14 +115,7 @@
             background-color: rgba(0, 0, 0, 0.6);
             padding: 30px;
             border-radius: 10px;
-        }
-
-        #servicos {
-            background-image: url('/api/placeholder/1920/1080');
-        }
-
-        #contato {
-            background-image: url('/api/placeholder/1920/1080');
+            z-index: 1000;
         }
 
         /* Formulário de Contato */
@@ -369,9 +359,9 @@
     <!-- Seção Contato -->
     <section id="contato" class="section">
         <div class="content">
-            <h1>Entre em Contato</h1>
-            <p>Estamos ansiosos para ouvir sobre seu próximo projeto. Preencha o formulário abaixo e entraremos em contato em breve.</p>
-
+            <p class="text-center mt-3" style="font-size: 0.9rem;">
+                Quero ouvir sobre seu próximo projeto. Preencha o formulário abaixo e entrarei em contato em breve.
+            </p>
             <div class="contact-form">
                 <form name="formulario" id="formulario" action="contato.php" method="POST"> 
                     <input type="text" class="form-control yespadding" id="nom" placeholder="Nome Completo" name="nome" required> 
