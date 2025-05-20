@@ -16,12 +16,12 @@
         /* Estilos Gerais */
         html {
             scroll-behavior: smooth;
+            font-family: 'Saira Condensed', sans-serif !important;
+            font-size: 0.9rem !important;
+            line-height: 1 !important;
         }
 
         body {
-            font-family: 'Saira Condensed', sans-serif;
-            font-size: 0.9rem;
-            line-height: 1;
             margin: 0;
             padding: 0;
         }
@@ -290,7 +290,7 @@
                     
                     <!-- Card 5 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #614385, #516395);">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-palette"></i> Design gráfico e web</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Visual bonito e profissional, do jeito que sua marca merece.</p>
