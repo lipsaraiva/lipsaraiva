@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Gugi&family=Saira+Condensed:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Gugi&family=Saira+Condensed,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <style>
         /* Estilos Gerais */
@@ -36,7 +36,6 @@
         }
 
         .navbar-nav .nav-link {
-            margin: 0 15px;
             transition: color 0.3s ease;
             font-family: "Jockey One", sans-serif;
             font-weight: 400;
@@ -216,11 +215,11 @@
         </div>
         <div class="carousel-inner h-100">
             <div class="carousel-item active h-100" data-bs-interval="10000">
-                <img src="images/embreve.png" class="d-block w-100 h-100" alt="Em Breve">
                 <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
                 </div>
+                <img src="images/embreve.png" class="d-block w-100 h-100" alt="Em Breve">
             </div>
             <!-- <div class="carousel-item" data-bs-interval="2000">
                 <img src="..." class="d-block w-100" alt="...">
