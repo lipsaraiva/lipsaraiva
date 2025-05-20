@@ -136,7 +136,7 @@
 
         /* Formulário de Contato */
         .contact-form {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.2);
             padding: 30px;
             border-radius: 10px;
             width: 100%;
@@ -147,6 +147,8 @@
             background-color: rgba(255, 255, 255, 0.9);
             border: none;
             margin-bottom: 15px;
+            font-family: 'Open Sans', sans-serif !important;
+            font-size: 1rem !important;
         }
 
         /* Footer */
