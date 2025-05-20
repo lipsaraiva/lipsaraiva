@@ -206,13 +206,14 @@
                 <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner h-100">
-                <div class="carousel-item active h-100">
+                <div class="carousel-item active  h-100">
                     <img src="images/space_mobile.jpg" class="d-block w-100 h-100" alt="Projeto 1" style="object-fit: cover;">
-                    <div class="carousel-caption">
-                        <h3>Projeto 1</h3>
-                        <p>Uma descrição detalhada do nosso primeiro projeto incrível que demonstra nossas habilidades e competências.</p>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
+
                 <div class="carousel-item h-100">
                     <img src="images/space.jpg" class="d-block w-100 h-100" alt="Projeto 2" style="object-fit: cover;">
                     <div class="carousel-caption d-none d-md-block">
