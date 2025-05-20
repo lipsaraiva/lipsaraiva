@@ -243,14 +243,14 @@
     </section>
 
     <!-- Seção Serviços -->
-    <section id="servicos" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;">
+    <section id="servicos" class="section" style="background-image: url('/images/mountain_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
             <div class="container">
                 <div class="row row-cols-2 gx-2">
                     
                     <!-- Card 1 -->
                     <div class="col mb-4" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg, #1a2a6c, #b21f1f);">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgb(108, 103, 26),rgb(243, 168, 7));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Sites bonitos, rápidos e pensados pra converter.</p>
