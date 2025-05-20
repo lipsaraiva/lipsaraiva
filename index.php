@@ -18,11 +18,16 @@
 
     <style>
         /* Estilos Gerais */
-        html {
-            scroll-behavior: smooth;
+
+        .saira-condensed {
             font-family: 'Saira Condensed', sans-serif !important;
             font-size: 0.9rem !important;
             line-height: normal !important;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         body {
@@ -190,9 +195,7 @@
             <div class="text-center" data-aos="zoom-in">
                 <p style="font-family: 'Gugi', sans-serif; font-size: 4rem;">SARAIVA</p>
             </div>
-            <p class="text-center text-white" data-aos="fade-up"
-                style="font-family: 'Saira Condensed', sans-serif; font-size: 0.9rem; line-height: normal;
-            max-width: 800px; margin: 0 auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+            <p class="text-center text-white saira-condensed" data-aos="fade-up">
                 Mais de 25 anos de experiência transformando ideias em presença digital! Soluções completas em web design, sistemas sob medida, hospedagem e muito mais — com qualidade, confiança e inovação para impulsionar seu negócio online.
             </p>
         </div>
@@ -296,8 +299,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(171, 173, 80, 0.4),rgba(211, 205, 123, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
-                                <p class="card-text" style="font-size: 0.9rem">Sites bonitos, rápidos e pensados pra converter.</p>
+                                <h4 class="card-title saira-condensed"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
+                                <p class="card-text saira-condensed">Sites bonitos, rápidos e pensados pra converter.</p>
                             </div>
                         </div>
                     </div>
@@ -306,8 +309,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(95, 173, 80, 0.4),rgba(126, 211, 123, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
-                                <p class="card-text" style="font-size: 0.9rem">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
+                                <h4 class="card-title saira-condensed"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
+                                <p class="card-text saira-condensed">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
                             </div>
                         </div>
                     </div>
@@ -316,8 +319,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 173, 145, 0.4),rgba(123, 211, 196, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
-                                <p class="card-text" style="font-size: 0.9rem">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
+                                <h4 class="card-title saira-condensed"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
+                                <p class="card-text saira-condensed">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
                             </div>
                         </div>
                     </div>
@@ -326,8 +329,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 159, 173, 0.4),rgba(123, 186, 211, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
-                                <p class="card-text" style="font-size: 0.9rem">Soluções feitas sob medida pro seu negócio ou projeto.</p>
+                                <h4 class="card-title saira-condensed"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
+                                <p class="card-text saira-condensed">Soluções feitas sob medida pro seu negócio ou projeto.</p>
                             </div>
                         </div>
                     </div>
@@ -336,8 +339,8 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(173, 80, 92, 0.4),rgba(229, 157, 163, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-palette"></i> Design gráfico e web</h4>
-                                <p class="card-text" style="font-size: 0.9rem">Visual bonito e profissional, do jeito que sua marca merece.</p>
+                                <h4 class="card-title saira-condensed"><i class="fas fa-palette"></i> Design gráfico e web</h4>
+                                <p class="card-text saira-condensed">Visual bonito e profissional, do jeito que sua marca merece.</p>
                             </div>
                         </div>
                     </div>
@@ -346,24 +349,26 @@
                     <div class="col mb-2" data-aos="fade-up">
                         <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
                             <div class="card-body">
-                                <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-share-alt"></i> Redes sociais</h4>
-                                <p class="card-text" style="font-size: 0.9rem">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
+                                <h4 class="card-title saira-condensed"><i class="fas fa-share-alt"></i> Redes sociais</h4>
+                                <p class="card-text saira-condensed">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
                             </div>
                         </div>
                     </div>
                     
                 </div>
             </div>
-            <p class="text-center mt-3" style="font-size: 0.9rem;">
-                Quer saber os valores? <br>Entre em <a href="#contato" style="color: white; text-decoration: none;"><strong>contato</strong></a> e vamos montar o pacote ideal pra você.
+            <p class="text-center mt-3 saira-condensed">
+                Quer saber os valores? <br>
+                Entre em <a href="#contato" style="color: white; text-decoration: none;"><strong>contato</strong></a> <br>
+                e vamos montar o pacote ideal pra você.
             </p>
         </div>
     </section>
 
     <!-- Seção Contato -->
-    <section id="contato" class="section">
+    <section id="contato" class="section" style="background-image: url('/images/mountain_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
-            <p class="text-center mt-3" style="font-size: 0.9rem;">
+            <p class="text-center mt-3 saira-condensed">
                 Quero ouvir sobre seu próximo projeto. Preencha o formulário abaixo e entrarei em contato em breve.
             </p>
             <div class="contact-form">
