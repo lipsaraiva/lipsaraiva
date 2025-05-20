@@ -248,77 +248,83 @@
             <div class="text-center" data-aos="zoom-in">
                 <p style="font-family: 'Gugi', sans-serif; font-size: 1rem;">Meus Serviços</p>
             </div>
-            <p class="text-center">
+            <p class="text-center" style="font-size: 0.9rem;">
                 Trabalho com tecnologia e internet há mais de 25 anos, atendendo agências, empresas e profissionais com soluções digitais sob medida. Se você precisa de alguém experiente, prático e que entrega, chegou ao lugar certo. Confira o que posso fazer por você:
             </p>
             <div class="container">
                 <div class="row g-4">
-                    <!-- Card 1 -->
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
-                                <p class="card-text">Sites bonitos, rápidos e pensados pra converter.</p>
+                    <!-- Coluna 1 -->
+                    <div class="col-lg-6">
+                        <!-- Card 1 -->
+                        <div class="mb-4" data-aos="fade-up">
+                            <div class="card bg-dark text-white h-100">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
+                                    <p class="card-text" style="font-size: 0.9rem">Sites bonitos, rápidos e pensados pra converter.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="mb-4" data-aos="fade-up">
+                            <div class="card bg-dark text-white h-100">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
+                                    <p class="card-text" style="font-size: 0.9rem">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="mb-4" data-aos="fade-up">
+                            <div class="card bg-dark text-white h-100">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
+                                    <p class="card-text" style="font-size: 0.9rem">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="mb-4" data-aos="fade-up">
+                            <div class="card bg-dark text-white h-100">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
+                                    <p class="card-text" style="font-size: 0.9rem">Soluções feitas sob medida pro seu negócio ou projeto.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
-                                <p class="card-text">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
+                    <!-- Coluna 2 -->
+                    <div class="col-lg-6">
+                        <!-- Card 5 -->
+                        <div class="mb-4" data-aos="fade-up">
+                            <div class="card bg-dark text-white h-100">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-palette"></i> Design gráfico e web</h4>
+                                    <p class="card-text" style="font-size: 0.9rem">Visual bonito e profissional, do jeito que sua marca merece.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Card 3 -->
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
-                                <p class="card-text">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
+                        <!-- Card 6 -->
+                        <div class="mb-4" data-aos="fade-up">
+                            <div class="card bg-dark text-white h-100">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-video"></i> Edição de vídeo</h4>
+                                    <p class="card-text" style="font-size: 0.9rem">Vídeos bem editados pra destacar sua ideia nas redes.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Card 4 -->
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
-                                <p class="card-text">Soluções feitas sob medida pro seu negócio ou projeto.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 5 -->
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title"><i class="fas fa-palette"></i> Design gráfico e web</h4>
-                                <p class="card-text">Visual bonito e profissional, do jeito que sua marca merece.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 6 -->
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title"><i class="fas fa-video"></i> Edição de vídeo</h4>
-                                <p class="card-text">Vídeos bem editados pra destacar sua ideia nas redes.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 7 -->
-                    <div class="col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="600">
-                        <div class="card bg-dark text-white h-100">
-                            <div class="card-body">
-                                <h4 class="card-title"><i class="fas fa-share-alt"></i> Redes sociais</h4>
-                                <p class="card-text">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
+                        <!-- Card 7 -->
+                        <div class="mb-4" data-aos="fade-up">
+                            <div class="card bg-dark text-white h-100">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-share-alt"></i> Redes sociais</h4>
+                                    <p class="card-text" style="font-size: 0.9rem">Ajudo você a manter presença e relevância nas redes, com estratégia e consistência.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
