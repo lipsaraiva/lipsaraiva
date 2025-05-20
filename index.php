@@ -93,6 +93,12 @@
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
         }
 
+        .card-text {
+            font-size: 0.9rem;
+            text-align: center;
+            line-height: normal;
+        }
+
         /* Estilos específicos para cada seção */
         #inicio {
             background-image: url('/api/placeholder/1920/1080');
@@ -250,7 +256,7 @@
                     
                     <!-- Card 1 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(171, 173, 80, 0.4),rgba(211, 205, 123, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-laptop"></i> Criação de landing pages e websites</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Sites bonitos, rápidos e pensados pra converter.</p>
@@ -260,7 +266,7 @@
 
                     <!-- Card 2 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(95, 173, 80, 0.4),rgba(126, 211, 123, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-server"></i> Hospedagem e e-mail profissional</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Seu site e e-mail funcionando direitinho, sem dor de cabeça.</p>
@@ -270,7 +276,7 @@
 
                     <!-- Card 3 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 173, 145, 0.4),rgba(123, 211, 196, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-globe"></i> Registro e manutenção de domínios</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Cuido do seu endereço na internet pra você não se preocupar com isso.</p>
@@ -280,7 +286,7 @@
 
                     <!-- Card 4 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(80, 159, 173, 0.4),rgba(123, 186, 211, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-code"></i> Sistemas web personalizados</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Soluções feitas sob medida pro seu negócio ou projeto.</p>
@@ -290,7 +296,7 @@
                     
                     <!-- Card 5 -->
                     <div class="col mb-2" data-aos="fade-up">
-                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(108, 80, 173, 0.4),rgba(123, 125, 211, 0.4));">
+                        <div class="card text-white h-100" style="background: linear-gradient(45deg,rgba(173, 80, 92, 0.4),rgba(229, 157, 163, 0.4));">
                             <div class="card-body">
                                 <h4 class="card-title" style="font-size: 0.9rem"><i class="fas fa-palette"></i> Design gráfico e web</h4>
                                 <p class="card-text" style="font-size: 0.9rem">Visual bonito e profissional, do jeito que sua marca merece.</p>
@@ -311,7 +317,7 @@
                 </div>
             </div>
             <p class="text-center mt-3" style="font-size: 0.9rem;">
-                Quer saber os valores? <br>Entre em <a href="#contato"><strong>contato</strong></a> e vamos montar o pacote ideal pra você.
+                Quer saber os valores? <br>Entre em <a href="#contato" style="color: white; text-decoration: none;"><strong>contato</strong></a> e vamos montar o pacote ideal pra você.
             </p>
         </div>
     </section>
