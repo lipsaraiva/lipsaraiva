@@ -212,86 +212,28 @@
 
     <!-- Seção Cases (Carrossel) -->
     <section id="cases" class="section">
-
-    <div id="carouselExampleDark" class="carousel carousel-dark slide h-100">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
-        </div>
-        <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100" data-bs-interval="10000">
-                <img src="images/embreve.png" class="d-block w-100 h-100" alt="Em Breve">
-            </div>
-            <!-- <div class="carousel-item" data-bs-interval="2000">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div> -->
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-
-
-
-        <!-- <div id="carouselCases" class="carousel slide h-100" data-bs-ride="carousel">
+        <div id="carouselDark" class="carousel carousel-dark slide h-100">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselCases" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselCases" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselCases" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner h-100">
-                <div class="carousel-item active  h-100">
-                    <img src="images/space_mobile.jpg" class="d-block w-100 h-100" alt="Projeto 1" style="object-fit: cover;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                <div class="carousel-item active h-100" data-bs-interval="10000">
+                    <img src="images/2025_zuri_estetica.png" class="d-block w-100 h-100" alt="Landing Page: Zuri Estética">
                 </div>
-
-                <div class="carousel-item h-100">
-                    <img src="images/space.jpg" class="d-block w-100 h-100" alt="Projeto 2" style="object-fit: cover;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Projeto 2</h3>
-                        <p>Este é o nosso segundo projeto, que destaca nossa capacidade de criar soluções personalizadas para nossos clientes.</p>
-                    </div>
-                </div>
-                <div class="carousel-item h-100">
-                    <img src="images/space_mobile.jpg" class="d-block w-100 h-100" alt="Projeto 3" style="object-fit: cover;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Projeto 3</h3>
-                        <p>Nosso terceiro projeto exemplifica nossa abordagem inovadora e nossa atenção aos detalhes.</p>
-                    </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/2025_imoveis_fabiana.png" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCases" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
+                <span class="visually-hidden"><i class="fas fa-chevron-left"></i></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselCases" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próximo</span>
+                <span class="visually-hidden"><i class="fas fa-chevron-right"></i></span>
             </button>
-        </div> -->
-
-
+        </div>
     </section>
 
     <!-- Seção Serviços -->
