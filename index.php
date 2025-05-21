@@ -60,10 +60,17 @@
             font-size: 0.8rem;
             font-weight: 200;
         }
-
-        .navbar-nav .nav-link:hover {
-            color: rgb(191, 94, 236);
+        
+        .navbar-nav .nav-link-ext {
+            transition: color 0.3s ease;
+            font-family: "Jockey One", sans-serif !important;
+            font-weight: 400;
+            font-style: normal;
+            color: #ffffff !important;
+            font-size: 0.8rem;
+            font-weight: 200;
         }
+
 
         /* Seções de Página Inteira */
         .section {
@@ -191,7 +198,7 @@
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a href="https://www.lipsaraiva.com.br/blog/" target="_blank">ARTIGOS</a>
+                        <a href="https://www.lipsaraiva.com.br/blog/" target="_blank" class="nav-link-ext text-center">ARTIGOS</a>
                     </li>
                 </ul>
             </div>
@@ -207,9 +214,6 @@
             <p class="text-center text-white saira-condensed" data-aos="fade-up">
                 Mais de 25 anos de experiência transformando ideias em presença digital! Soluções completas em web design, sistemas sob medida, hospedagem e muito mais — com qualidade, confiança e inovação para impulsionar seu negócio online.
             </p>
-<!-- 
-             <a href="https://www.lipsaraiva.com.br/blog/" target="_blank">ARTIGOS</a> -->
-
         </div>
     </section>
 

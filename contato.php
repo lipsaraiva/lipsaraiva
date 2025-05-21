@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 
         $mail->IsSMTP();
         $mail->SMTPDebug = 1;
-        $mail->Port = 587; // ou 465
+        $mail->Port = 465; // ou 465
         $mail->Host = "mail.lipsaraiva.com.br";
         $mail->SMTPAuth = true;
         $mail->Username = "contato@lipsaraiva.com.br";
