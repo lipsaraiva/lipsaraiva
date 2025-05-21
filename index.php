@@ -219,10 +219,10 @@
             </div>
             <div class="carousel-inner h-100">
                 <div class="carousel-item active h-100" data-bs-interval="10000">
-                    <img src="images/2025_zuri_estetica.png" class="d-block w-100 h-100" alt="Landing Page: Zuri Estética">
+                    <img src="/images/2025_zuri_estetica_mobile.png" class="d-block w-100 h-100" alt="Landing Page: Zuri Estética">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/2025_imoveis_fabiana.png" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
+                    <img src="/images/2025_imoveis_fabiana_mobile.png" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
