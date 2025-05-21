@@ -216,6 +216,7 @@
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner h-100">
                 <div class="carousel-item active h-100" data-bs-interval="10000">
@@ -223,6 +224,9 @@
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="/images/2025_imoveis_fabiana_mobile.png" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/images/2025_advocaciasr_mobile.png" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
