@@ -191,7 +191,7 @@
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a href="https://lipsaraiva.com.br/blog" target="_blank" class="nav-link text-center">ARTIGOS</a>
+                        <a href="lipsaraiva.com.br/blog" target="_blank" class="nav-link text-center">ARTIGOS</a>
                     </li>
                 </ul>
             </div>
@@ -371,18 +371,20 @@
     </section>
 
     <!-- Seção Contato -->
-    <section id="contato" class="section" style="background-image: url('/images/mountain_mobile.jpg'); background-size: cover; background-position: center;">
+    <section id="contato" class="section" style="background-image: url('/images/cafe_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
             <p class="text-center mt-3 saira-condensed">
                 Quero ouvir sobre seu próximo projeto. Preencha o formulário abaixo e entrarei em contato em breve.
             </p>
             <div class="contact-form">
                 <form name="formulario" id="formulario" action="contato.php" method="POST"> 
-                    <input type="text" class="form-control yespadding" id="nom" placeholder="Nome Completo" name="nome" required> 
-                    <input type="text" class="form-control yespadding" id="tel" placeholder="Telefone" name="telefone"> 
-                    <input type="email" class="form-control yespadding" id="ema" placeholder="Email" name="email" required> 
-                    <textarea class="form-control yespadding" id="men" rows="5" name="mensagem" placeholder="Deixe a sua mensagem" required></textarea> 
-                    <button type="submit" name="submit" class="btn btn-block btn-success yespadding" onclick="return js_validar()">Enviar</button> 
+                    <input type="text" class="form-control form-control-sm" id="nom" placeholder="Nome Completo" name="nome" required> 
+                    <input type="text" class="form-control form-control-sm" id="tel" placeholder="Telefone" name="telefone"> 
+                    <input type="email" class="form-control form-control-sm" id="ema" placeholder="Email" name="email" required> 
+                    <textarea class="form-control form-control-sm" id="men" rows="5" name="mensagem" placeholder="Deixe a sua mensagem" required></textarea> 
+                    <button type="submit" name="submit" class="btn btn_sm btn-block btn-success">
+                        <i class="fas fa-envelope me-1"></i> Enviar
+                    </button> 
                 </form>
             </div>
         </div>
