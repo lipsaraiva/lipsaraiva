@@ -17,23 +17,32 @@ if (isset($_POST['submit'])) {
         $assunto_email = "Contato Site Lipsaraiva - " . date('dmYhis');
         $mail = new PHPMailer\PHPMailer\PHPMailer();
 
+        // $mail->SMTPDebug = 2;
+
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
+
+        $mail->Host = 'mail.lipsaraiva.com.br';
+        $mail->SMTPAuth = true;     
         $mail->IsSMTP();
-        $mail->SMTPDebug = 1;
-        $mail->Port = 465; // ou 465
-        $mail->Host = "mail.lipsaraiva.com.br";
-        $mail->SMTPAuth = true;
+        $mail->isHTML(true);      
+        $mail->Port = 587; // ou 465
+        $mail->CharSet = 'UTF-8';
         $mail->Username = "contato@lipsaraiva.com.br";
         $mail->Password = "Em@liplip2021";
-        $mail->FromName = "Lipsaraiva";
+        $address = "contato@lipsaraiva.com.br";
+        $mail->AddAddress($address, "destinatario");
         $mail->From = "contato@lipsaraiva.com.br";
-        $mail->AddAddress("lipsaraiva@gmail.com", "Lipsaraiva");
-        $mail->Subject = "$assunto_email";
-        $mail->Body = "<html><body><p><strong>Nome:</strong>$nom</p><p><strong>Telefone: </strong>$tel</p><p><strong>e-mail: </strong>$ema</p><p><strong>Mensagem: </strong>$msg</p></body></html>";
-
-        $mail->CharSet = 'UTF-8';
-        $mail->SMTPSecure = 'ssl'; 
-        $mail->IsHTML(true);
-        // $mail->SetFrom("contato@lipsaraiva.com.br");
+        $mail->Sender = "contato@lipsaraiva.com.br";
+        $mail->FromName = "Lipsaraiva"; // Seu nome
+        $mail->Subject = $assunto_email;
+        $corpoMSG = "<html><body><p><strong>Nome:</strong>$nom</p><p><strong>Telefone: </strong>$tel</p><p><strong>e-mail: </strong>$ema</p><p><strong>Mensagem: </strong>$msg</p></body></html>";
+        $mail->MsgHTML($corpoMSG);
         
         if (!$mail->Send()) {
             echo "Mailer Error: " . $mail->ErrorInfo;
@@ -49,12 +58,5 @@ if (isset($_POST['submit'])) {
 } else {
     header("Location: index.php");
 }
-
-
-
-
-
-
-
 
 
