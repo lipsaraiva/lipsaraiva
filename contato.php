@@ -16,20 +16,25 @@ if (isset($_POST['submit'])) {
     if (($nom != "") || ($msg != "") || ($ema != "")) {
         $assunto_email = "Contato Site Lipsaraiva - " . date('dmYhis');
         $mail = new PHPMailer\PHPMailer\PHPMailer();
-        $mail->CharSet = 'UTF-8';
-        $mail->IsSMTP(); // enable SMTP 
-        $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
-        $mail->SMTPAuth = true; // authentication enabled
-        $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-        $mail->Host = "mail.lipsaraiva.com.br"; // "iuri0048.hospedagemdesites.ws";
-        $mail->Port = 465; // or 587
-        $mail->IsHTML(true);
+
+        $mail->IsSMTP();
+        $mail->SMTPDebug = 1;
+        $mail->Port = 587; // ou 465
+        $mail->Host = "mail.lipsaraiva.com.br";
+        $mail->SMTPAuth = true;
         $mail->Username = "contato@lipsaraiva.com.br";
         $mail->Password = "Em@liplip2021";
-        $mail->SetFrom("contato@lipsaraiva.com.br");
+        $mail->FromName = "Lipsaraiva";
+        $mail->FromName = "contato@lipsaraiva.com.br";
+        $mail->AddAddress("lipsaraiva@gmail.com", "Lipsaraiva");
         $mail->Subject = "$assunto_email";
         $mail->Body = "<html><body><p><strong>Nome:</strong>$nom</p><p><strong>Telefone: </strong>$tel</p><p><strong>e-mail: </strong>$ema</p><p><strong>Mensagem: </strong>$msg</p></body></html>";
-        $mail->AddAddress("lipsaraiva@gmail.com");
+
+        // $mail->CharSet = 'UTF-8';
+        // $mail->SMTPSecure = 'ssl'; 
+        // $mail->IsHTML(true);
+        // $mail->SetFrom("contato@lipsaraiva.com.br");
+        
         if (!$mail->Send()) {
             echo "Mailer Error: " . $mail->ErrorInfo;
             exit;

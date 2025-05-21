@@ -191,11 +191,8 @@
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a href="lipsaraiva.com.br/blog/" target="_blank" class="nav-link text-center">ARTIGOS</a>
+                        <a href="http://www.lipsaraiva.com.br/blog/" target="_blank" rel="noopener noreferrer" class="nav-link text-center">ARTIGOS</a>
                     </li>
-                    <a href="https://lipsaraiva.com.br/blog/" target="_blank" class="nav-link text-center">
-                        <i class="fab fa-instagram"></i>
-                    </a>
                 </ul>
             </div>
         </div>
