@@ -30,9 +30,9 @@ if (isset($_POST['submit'])) {
         $mail->Subject = "$assunto_email";
         $mail->Body = "<html><body><p><strong>Nome:</strong>$nom</p><p><strong>Telefone: </strong>$tel</p><p><strong>e-mail: </strong>$ema</p><p><strong>Mensagem: </strong>$msg</p></body></html>";
 
-        // $mail->CharSet = 'UTF-8';
-        // $mail->SMTPSecure = 'ssl'; 
-        // $mail->IsHTML(true);
+        $mail->CharSet = 'UTF-8';
+        $mail->SMTPSecure = 'ssl'; 
+        $mail->IsHTML(true);
         // $mail->SetFrom("contato@lipsaraiva.com.br");
         
         if (!$mail->Send()) {
