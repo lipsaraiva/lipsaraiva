@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
         $mail->Username = "contato@lipsaraiva.com.br";
         $mail->Password = "Em@liplip2021";
         $mail->FromName = "Lipsaraiva";
-        $mail->FromName = "contato@lipsaraiva.com.br";
+        $mail->From = "contato@lipsaraiva.com.br";
         $mail->AddAddress("lipsaraiva@gmail.com", "Lipsaraiva");
         $mail->Subject = "$assunto_email";
         $mail->Body = "<html><body><p><strong>Nome:</strong>$nom</p><p><strong>Telefone: </strong>$tel</p><p><strong>e-mail: </strong>$ema</p><p><strong>Mensagem: </strong>$msg</p></body></html>";

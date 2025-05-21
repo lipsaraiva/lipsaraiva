@@ -191,7 +191,7 @@
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a href="http://www.lipsaraiva.com.br/blog/" target="_blank" rel="noopener noreferrer" class="nav-link text-center">ARTIGOS</a>
+                        <a href="https://www.lipsaraiva.com.br/blog/" target="_blank" class="nav-link text-center">ARTIGOS</a>
                     </li>
                 </ul>
             </div>
@@ -207,6 +207,9 @@
             <p class="text-center text-white saira-condensed" data-aos="fade-up">
                 Mais de 25 anos de experiência transformando ideias em presença digital! Soluções completas em web design, sistemas sob medida, hospedagem e muito mais — com qualidade, confiança e inovação para impulsionar seu negócio online.
             </p>
+
+             <a href="https://www.lipsaraiva.com.br/blog/" target="_blank">ARTIGOS</a>
+
         </div>
     </section>
 
