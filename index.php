@@ -207,8 +207,7 @@
 
     <!-- Seção Início -->
     <section id="inicio" class="section" style="background-image: url('/images/inicio_mobile.png'); background-size: cover; background-position: center;">
-        <div class="content">
-
+        <div class="content"> 
 
             <div class="text-center" data-aos="zoom-in">
                 <p style="font-family: 'Gugi', sans-serif; font-size: 4rem;">SARAIVA</p>
