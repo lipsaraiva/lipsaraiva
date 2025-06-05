@@ -208,6 +208,11 @@
     <!-- Seção Início -->
     <section id="inicio" class="section" style="background-image: url('/images/space_mobile.jpg'); background-size: cover; background-position: center;">
         <div class="content">
+
+<p class="text-center">
+                                        <img src="/images/astronauta.png" class="img-fluid w-50" alt="Astronauta">
+                                    </p>
+
             <div class="text-center" data-aos="zoom-in">
                 <p style="font-family: 'Gugi', sans-serif; font-size: 4rem;">SARAIVA</p>
             </div>
