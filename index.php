@@ -176,6 +176,21 @@
         .social-icons a:hover {
             color: #17a2b8;
         }
+
+
+
+        @media (max-width: 768px) {
+            #inicio {
+                background-image: url('/images/inicio_mobile.jpg');
+            }
+        }
+        
+        @media (min-width: 769px) {
+            #inicio {
+                background-image: url('/images/inicio_desktop.jpg');
+            }
+        }
+
     </style>
 </head>
 
@@ -206,14 +221,13 @@
     </nav>
 
     <!-- Seção Início -->
-    <section id="inicio" class="section" style="background-image: url('/images/inicio_mobile.png'); background-size: cover; background-position: center;">
+    <section id="inicio" class="section">
         <div class="content"> 
-
             <div class="text-center" data-aos="zoom-in">
                 <p style="font-family: 'Gugi', sans-serif; font-size: 4rem;">SARAIVA</p>
             </div>
             <p class="text-center text-white saira-condensed" data-aos="fade-up">
-                Mais de 25 anos de experiência transformando ideias em presença digital! Soluções completas em web design, sistemas sob medida, hospedagem e muito mais — com qualidade, confiança e inovação para impulsionar seu negócio online.
+                Mais de 25 anos de experiência transformando ideias em presença digital! Soluções completas em web design, sistemas sob medida, hospedagem e muito mais — com qualidade, confiança e inovação para impulsionar seu negócio online.
             </p>
         </div>
     </section>
