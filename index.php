@@ -200,6 +200,9 @@
             <div class="navbar-collapse justify-content-center">
                 <ul class="navbar-nav mx-auto d-flex flex-row text-center">
                     <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-center" style="font-family: 'Gugi', sans-serif;">SARAIVA</a>
+                    </li>
+                    <li class="nav-item mx-2">
                         <a href="#inicio" class="nav-link text-center"><i class="fa fa-home"></i></a>
                     </li>
                     <li class="nav-item mx-2">
@@ -212,7 +215,7 @@
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a href="https://www.lipsaraiva.com.br/blog/" target="_blank" class="nav-link-ext text-center text-decoration-none">ARTIGOS</a>
+                        <a href="https://www.lipsaraiva.com.br/blog/" target="_blank" class="nav-link text-center text-decoration-none">ARTIGOS</a>
                     </li>
                 </ul>
             </div>
