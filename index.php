@@ -224,7 +224,9 @@
     <section id="inicio" class="section">
         <div class="content"> 
             <div class="text-center" data-aos="zoom-in">
-                <p style="font-family: 'Gugi', sans-serif; font-size: 4rem;">SARAIVA</p>
+                <h1 style="font-family: 'Gugi', sans-serif; font-size: 4rem;" id="tituloSite"> </h1>
+
+                <!-- <p style="font-family: 'Gugi', sans-serif; font-size: 4rem;">SARAIVA</p> -->
             </div>
             <p class="text-center text-white saira-condensed" data-aos="fade-up">
                 Mais de 25 anos de experiência transformando ideias em presença digital! Soluções completas em web design, sistemas sob medida, hospedagem e muito mais — com qualidade, confiança e inovação para impulsionar seu negócio online.
@@ -373,9 +375,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/aos.settings.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+
 
     <!-- JavaScript personalizado para rolagem suave -->
     <script>
+
+        gsap.registerPlugin(TextPlugin);
+
+        gsap.to("#tituloSite", {
+            duration: 3,
+            text: "SARAIVA",
+            ease: "power2.inOut",
+            delay: 1
+        });
+
+
         document.addEventListener('DOMContentLoaded', function() {
             // Selecionar todos os links do menu
             const menuLinks = document.querySelectorAll('.navbar-nav .nav-link');
