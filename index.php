@@ -200,9 +200,8 @@
             <div class="navbar-collapse justify-content-center">
                 <ul class="navbar-nav mx-auto d-flex flex-row text-center">
                     <li class="nav-item mx-2">
-                        <a href="#inicio" class="nav-link text-center text-warning">
-                            <i class="fa fa-home me-1"></i>
-                            <span style="font-family: 'Gugi', sans-serif;">SARAIVA</span>
+                        <a href="#inicio" class="nav-link text-center">
+                            <i class="fa fa-home"></i>
                         </a>
                     </li>
                     <li class="nav-item mx-2">
