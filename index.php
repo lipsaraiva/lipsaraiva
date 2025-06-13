@@ -244,13 +244,22 @@
             </div>
             <div class="carousel-inner h-100">
                 <div class="carousel-item active h-100" data-bs-interval="10000">
-                    <img src="/images/2025_zuri_estetica_mobile.png" class="d-block w-100 h-100" alt="Landing Page: Zuri Estética">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="/images/2025/zuriestetica_desktop.jpg">
+                        <img src="/images/2025/zuriestetica_mobile.jpg" class="d-block w-100 h-100" alt="Landing Page: Zuri Estética">
+                    </picture>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="/images/2025_imoveis_fabiana_mobile.png" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="/images/2025/imoveisfabiana_desktop.jpg">
+                        <img src="/images/2025/imoveisfabiana_mobile.jpg" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
+                    </picture>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="/images/2025_advocaciasr_mobile.png" class="d-block w-100 h-100" alt="Website: Imóveis Fabiana">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="/images/2025/advocaciasr_desktop.jpg">
+                        <img src="/images/2025/advocaciasr_mobile.jpg" class="d-block w-100 h-100" alt="Website: Advocacia SR">
+                    </picture>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
