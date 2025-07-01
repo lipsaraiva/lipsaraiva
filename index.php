@@ -220,7 +220,7 @@
             .case-desc {
                 justify-content: center;
                 align-items: flex-start;
-                padding-top: 8vh;
+                padding-top: 4vh;
             }
             
             .case-desc-inner {
