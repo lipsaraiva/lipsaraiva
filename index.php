@@ -420,8 +420,10 @@
                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
             </div>
             <div class="carousel-inner h-100">
+
                 <!-- Case 1 -->
                 <div class="carousel-item active h-100" data-bs-interval="10000">
                     <picture>
@@ -516,8 +518,54 @@
                         </div>
                     </div>
                 </div>
-
-
+                
+                <!-- Case 7 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="/images/2025/sistemas_desktop.jpg">
+                        <img src="/images/2025/sistemas_mobile.jpg" class="d-block" alt="Sistemas Web">
+                    </picture>
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title">Sistemas Web</h5>
+                            <p class="case-text"></p>
+                                Sistemas web desenvolvidos sob medida para os mais diversos segmentos: gestão empresarial, controle financeiro, agendamento online, plataformas educacionais, soluções para eventos, integrações com APIs e muito mais. Projetos personalizados, seguros, responsivos e focados em facilitar processos, aumentar produtividade e impulsionar resultados para empresas de todos os portes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Case 8 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="/images/2025/artes_desktop.jpg">
+                        <img src="/images/2025/artes_mobile.jpg" class="d-block" alt="Design Gráfico e Web">
+                    </picture>
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title">Design Gráfico e Web</h5>
+                            <p class="case-text"></p>
+                                Serviços de design gráfico e web para todos os segmentos: criação de identidades visuais, logotipos, materiais institucionais, apresentações, banners, posts para redes sociais, layouts de sites, interfaces de sistemas, personalização de plataformas e muito mais. Projetos criativos, profissionais e alinhados à estratégia do seu negócio, para destacar sua marca e comunicar com impacto em qualquer meio digital ou impresso.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Case 9 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="/images/2025/logotipos_desktop.jpg">
+                        <img src="/images/2025/logotipos_mobile.jpg" class="d-block" alt="Branding Design">
+                    </picture>
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title">Branding Design</h5>
+                            <p class="case-text"></p>
+                                Serviços completos de branding e criação de logotipos para todos os segmentos: desenvolvimento de marcas únicas, memoráveis e alinhadas ao propósito do seu negócio. Do briefing ao conceito visual, entrego identidade visual profissional, manual de marca, aplicações em materiais digitais e impressos, além de consultoria estratégica para fortalecer sua presença no mercado e gerar valor para sua empresa desde o primeiro contato.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             
@@ -540,9 +588,15 @@
                 <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselDarkMob" data-bs-slide-to="8" aria-label="Slide 9"></button>
             </div>
             <div class="carousel-inner h-100">
-                <!-- Mobile cases - same content as desktop but with mobile-specific styling -->
+                
+                <!-- Case 1 -->
                 <div class="carousel-item active h-100" data-bs-interval="10000">
                     <img src="/images/2025/zuriestetica_mobile.jpg" class="d-block" alt="Landing Page: Zuri Estética">
                     <div class="case-desc">
@@ -554,6 +608,7 @@
                     </div>
                 </div>
                 
+                <!-- Case 2 -->
                 <div class="carousel-item h-100" data-bs-interval="8000">
                     <img src="/images/2025/imoveisfabiana_mobile.jpg" class="d-block" alt="Website: Imóveis Fabiana">
                     <div class="case-desc">
@@ -566,6 +621,7 @@
                     </div>
                 </div>
                 
+                <!-- Case 3 -->
                 <div class="carousel-item h-100" data-bs-interval="8000">
                     <img src="/images/2025/advocaciasr_mobile.jpg" class="d-block" alt="Website: Advocacia SR">
                     <div class="case-desc">
@@ -577,6 +633,7 @@
                     </div>
                 </div>
                 
+                <!-- Case 4 -->
                 <div class="carousel-item h-100" data-bs-interval="8000">
                     <img src="/images/2025/ucorp_mobile.jpg" class="d-block" alt="Website: Ucorp">
                     <div class="case-desc">
@@ -589,6 +646,76 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Case 5 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <img src="/images/2025/croaciamc_mobile.jpg" class="d-block" alt="Website: Croácia MC">
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title"> Site para Metalúrgica Croácia</h5>
+                            <p class="case-text">
+                                Site institucional para a Metalúrgica Croácia, com layout exclusivo, 
+                                responsivo e otimizado para apresentar os serviços e diferenciais da empresa. Foco em navegação simples, 
+                                contato facilitado e credibilidade para conquistar novos clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 6 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <img src="/images/2025/estafacil_mobile.jpg" class="d-block" alt="Website: Estafacil">
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title">Site para Estafacil</h5>
+                            <p class="case-text">
+                                Site institucional para a Estafacil, empresa especializada em soluções de estacionamento. 
+                                Layout exclusivo, responsivo e otimizado para apresentar serviços, diferenciais e tecnologia da empresa. 
+                                Foco em navegação simples, contato facilitado e credibilidade para atrair novos clientes e parceiros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 7 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <img src="/images/2025/sistemas_mobile.jpg" class="d-block" alt="Sistemas Web">
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title">Sistemas Web</h5>
+                            <p class="case-text">
+                                Sistemas web desenvolvidos sob medida para os mais diversos segmentos: gestão empresarial, controle financeiro, agendamento online, plataformas educacionais, soluções para eventos, integrações com APIs e muito mais. Projetos personalizados, seguros, responsivos e focados em facilitar processos, aumentar produtividade e impulsionar resultados para empresas de todos os portes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 8 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <img src="/images/2025/artes_mobile.jpg" class="d-block" alt="Design Gráfico e Web">
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title">Design Gráfico e Web</h5>
+                            <p class="case-text">
+                                Serviços de design gráfico e web para todos os segmentos: criação de identidades visuais, logotipos, materiais institucionais, apresentações, banners, posts para redes sociais, layouts de sites, interfaces de sistemas, personalização de plataformas e muito mais. Projetos criativos, profissionais e alinhados à estratégia do seu negócio, para destacar sua marca e comunicar com impacto em qualquer meio digital ou impresso.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 9 -->
+                <div class="carousel-item h-100" data-bs-interval="8000">
+                    <img src="/images/2025/logotipos_mobile.jpg" class="d-block" alt="Branding Design">
+                    <div class="case-desc">
+                        <div class="case-desc-inner">
+                            <h5 class="case-title">Branding Design</h5>
+                            <p class="case-text">
+                                Serviços completos de branding e criação de logotipos para todos os segmentos: desenvolvimento de marcas únicas, memoráveis e alinhadas ao propósito do seu negócio. Do briefing ao conceito visual, entrego identidade visual profissional, manual de marca, aplicações em materiais digitais e impressos, além de consultoria estratégica para fortalecer sua presença no mercado e gerar valor para sua empresa desde o primeiro contato.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselDarkMob" data-bs-slide="prev">
