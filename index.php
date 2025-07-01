@@ -204,13 +204,13 @@
 
         .case-title {
             font-family: 'Saira Condensed', sans-serif;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             margin-bottom: 12px;
         }
 
         .case-text {
             font-family: 'Saira Condensed', sans-serif;
-            font-size: 1.0rem;
+            font-size: 0.9rem;
             line-height: 1.2;
             margin-bottom: 0;
         }
@@ -220,7 +220,7 @@
             .case-desc {
                 justify-content: center;
                 align-items: flex-start;
-                padding-top: 2vh;
+                padding-top: 1vh;
             }
             
             .case-desc-inner {
