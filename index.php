@@ -249,8 +249,15 @@
         /* ==========================================================================
            SERVICES SECTION
            ========================================================================== */
+
         #servicos {
-            background-image: url('/images/mountain_mobile.jpg');
+            background-image: url('/images/2025/servicos_mobile.jpg');
+        }
+
+        @media (min-width: 769px) {
+            #servicos {
+                background-image: url('/images/2025/servicos_desktop.jpg');
+            }
         }
 
         .service-card {
@@ -283,7 +290,13 @@
            CONTACT SECTION
            ========================================================================== */
         #contato {
-            background-image: url('/images/cafe_mobile.jpg');
+            background-image: url('/images/2025/contato_mobile.jpg');
+        }
+
+        @media (min-width: 769px) {
+            #contato {
+                background-image: url('/images/2025/contato_desktop.jpg');
+            }
         }
 
         .contact-form {
