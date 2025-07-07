@@ -42,6 +42,8 @@
 
         html {
             scroll-behavior: smooth;
+            width: 100vw;
+            overflow-x: hidden;
         }
 
         body {
