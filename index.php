@@ -829,7 +829,7 @@
     <section id="contato" class="section">
         <div class="content">
             <p class="text-center mt-3 saira-condensed">
-                Quero ouvir sobre seu próximo projeto. Preencha o formulário abaixo e entrarei em contato em breve.
+                Quero ouvir sobre seu próximo projeto. <br>Preencha o formulário abaixo e entrarei em contato em breve.
             </p>
             <div class="contact-form">
                 <form name="formulario" id="formulario" action="contato.php" method="POST"> 
