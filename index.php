@@ -870,10 +870,16 @@
             // Adicionar evento de clique a cada link
             menuLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
+                    // Permitir comportamento padrão para links externos
+                    const href = this.getAttribute('href');
+                    if (href.startsWith('http://') || href.startsWith('https://')) {
+                        return;
+                    }
+
                     e.preventDefault();
 
                     // Obter o alvo do link
-                    const targetId = this.getAttribute('href');
+                    const targetId = href;
                     const targetSection = document.querySelector(targetId);
 
                     // Rolar suavemente até a seção
