@@ -829,7 +829,7 @@
     <section id="contato" class="section">
         <div class="content">
             <p class="text-center mt-3 saira-condensed">
-                Quero ouvir sobre seu próximo projeto. Preencha o formulário abaixo e entrarei em contato em breve.
+                Quero ouvir sobre seu próximo projeto. <br>Preencha o formulário abaixo e entrarei em contato em breve.
             </p>
             <div class="contact-form">
                 <form name="formulario" id="formulario" action="contato.php" method="POST"> 
@@ -870,10 +870,16 @@
             // Adicionar evento de clique a cada link
             menuLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
+                    // Permitir comportamento padrão para links externos
+                    const href = this.getAttribute('href');
+                    if (href.startsWith('http://') || href.startsWith('https://')) {
+                        return;
+                    }
+
                     e.preventDefault();
 
                     // Obter o alvo do link
-                    const targetId = this.getAttribute('href');
+                    const targetId = href;
                     const targetSection = document.querySelector(targetId);
 
                     // Rolar suavemente até a seção
