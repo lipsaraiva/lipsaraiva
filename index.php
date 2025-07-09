@@ -400,10 +400,10 @@
                     <li class="nav-item mx-2">
                         <a href="#contato" class="nav-link text-center">CONTATO</a>
                     </li>
-                    <li class="nav-item mx-2">
+                    <!-- <li class="nav-item mx-2">
                         <a href="https://www.lipsaraiva.com.br/blog/" target="_blank" 
                            class="nav-link text-center text-decoration-none">ARTIGOS</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
